@@ -10,7 +10,7 @@ __Instructions__: If you're reading this online, wait for an image to display on
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/reaction/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print).
 
 
 --- collapse ---
