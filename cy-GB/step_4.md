@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own delay
+## Her: Dewis eich oedi eich hun
 
-Change the numbers in your `random` block. You can speed up your game to make it harder, or slow it down to add suspense!
+Newidiwch y rhifau yn eich bloc `random` (ar hap). Gallwch gyflymu eich gêm i’w gwneud yn anoddach, neu i’w harafu i ychwanegu ansicrwydd!
 
 \--- /challenge \---
