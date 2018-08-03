@@ -1,66 +1,66 @@
-## Introduction
+## Cyflwyniad
 
-You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
+Rydych chi'n mynd i greu gêm i 2 chwaraewr i weld pwy sydd â’r adwaith cyflymaf. Bydd y gêm yn gweithio trwy ddangos delwedd wedi cyfnod o amser a bennir ar hap - bydd pwy bynnag sy'n gwasgu ei fotwm gyntaf yn ennill.
 
-**Instructions**: If you're reading this online, wait for an image to display on the micro:bit below and then press **A** or **B** first to see who is the fastest.
+**Cyfarwyddiadau**: Os ydych chi'n darllen hyn ar-lein, arhoswch i weld delwedd ar y micro:bit isod ac yna gwasgu **A** neu **B** gyntaf i weld pwy yw’r cyflymaf.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=50800-81674-84873-32898" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Additional information for club leaders
+### Gwybodaeth atodol i arweinwyr clybiau
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print).
+Os ydych chi angen argraffu'r prosiect hwn, defnyddiwch y [Fersiwn hwylus i argraffu](https://projects.raspberrypi.org/en/projects/reaction/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Nodiadau arweinydd clwb
 
-## Introduction:
+## Cyflwyniad:
 
-In this project, children will make a reaction game. An image will be displayed on the micro:bit after a random amount of time - the first person to press their button is the winner.
+Yn y prosiect hwn, bydd plant yn creu gêm hamdden. Bydd delwedd yn cael ei harddangos ar y micro:bit a bennir ar hap - bydd pwy bynnag sy'n gwasgu ei fotwm gyntaf yn ennill.
 
-Children will make use of all of the coding concepts used in previous projects, as well as using Boolean operators to wait until a button has been pressed.
+Bydd plant yn defnyddio’r holl gysyniadau codio a ddefnyddiwyd mewn prosiectau blaenorol, yn ogystal â defnyddio gweithredwyr Boole i aros nes bydd botwm wedi ei wasgu.
 
-## Resources
+## Adnoddau
 
-For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
+Ar gyfer y prosiect hwn, dylid defnyddio’r golygydd microbit [MakeCode (PXT)](http://jumpto.cc/pxt-new).
 
-You can find a completed version of this project at [makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Gallwch weld fersiwn wedi ei gwblhau o’r prosiect hwn ar[makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898), a gellir lawrlwytho’r ffeil .hex grynodaol trwy glicio ar y ddolen 'Lawrlwytho Deunydd Prosiect' ar gyfer y prosiect hwn, sy'n cynnwys:
 
 + microbit-Reaction.hex
 
-There is also a version of the project with the "Keep score" challenge completed. This can be found at [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Mae yna hefyd fersiwn o'r prosiect gyda’r her "Cadw sgôr" wedi cwblhau. Gellir dod o hyd i hyn ar [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147), a gellir lawrlwytho’r ffeil .hex grynodaol trwy glicio ar y ddolen 'Lawrlwytho Deunydd Prosiect' ar gyfer y prosiect hwn, sy'n cynnwys:
 
 + microbit-Reaction-Score.hex
 
-## Learning Objectives
+## Amcanion Dysgu
 
-+ Boolean operators: 
-    + AND;
-    + NOT.
++ Gweithredwyr Boole: 
+    + AC;
+    + NID.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Mae’r prosiect hwn yn cwmpasu elfennau o’r ffrydiau canlynol o'r [Cwricwlwm Llunio digidol Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Defnyddiwch luniadau rhaglennu sylfaenol i greu rhaglennu syml.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Heriau
 
-+ "Choose your own image" - changing the image displayed on the micro:bit.
-+ "Choose your own delay" - changing the parameters to the `random` function.
-+ "Keep score" - use variables to keep track of player scores.
++ “Dewis eich delwedd eich hun" - newid y ddelwedd a ddangosir ar y micro:bit.
++ "Dewis eich oedi eich hun" - newid y paramedrau i’r swyddogaeth `random` (hap).
++ "Cadw sgôr" - defnyddio amrywiolion i gadw trywydd ar sgorau chwaraewyr.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Deunyddiau prosiect
 
-## Club leader resources
+## Adnoddau arweinydd clybiau
 
-+ [online completed project](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
-+ [online completed project, including 'Keep score' challenge](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
-+ [.hex project file to transfer onto your micro:bit](resources/microbit-Reaction.hex)
-+ [.hex project file including 'Keep Score' challenge](resources/microbit-Reaction-Score.hex)
++ [prosiect wedi ei gwblhau ar-lein](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
++ [prosiect wedi ei gwblhau ar-lein, yn cynnwys yr her 'Cadw sgôr'](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
++ [Ffeil prosiect .hex i drosglwyddo i’ch micro:bit](resources/microbit-Reaction.hex)
++ [Ffeil prosiect .hex yn cynnwys her 'Cadw Sgôr'](resources/microbit-Reaction-Score.hex)
 
 \--- /collapse \---
