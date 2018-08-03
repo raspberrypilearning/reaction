@@ -1,31 +1,31 @@
-## Wait for it!
+## Arhoswch amdano!
 
-Let's start by displaying an image after a random amount of time.
+Beth am gychwyn trwy arddangos delwedd wedi cyfnod o amser a bennir ar hap.
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
++ Ewch i <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> i gychwyn prosiect newydd yn y golygydd MakeCode (PXT). Galwch eich prosiect newydd yn 'Adwaith'.
 
-+ Before displaying an image, the game should wait for a random amount of time.
++ Cyn arddangos delwedd, dylai'r gêm aros am gyfnod o amser a bennir ar hap.
 
-Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
+Llusgwch floc `pause` (rhewi) i'r bloc `forever` (am byth) a newid r amser rhewi i 1000 ms:
 
-![screenshot](images/reaction-pause.png)
+![sgrinlun](images/reaction-pause.png)
 
-+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
++ Ychwanegwch floc `pause` (rhewi) arall ac yna llusgo bloc `pick random` (dewis ar hap) i’r bloc `pause` (rhewi) a gosod ei werth i 4000:
 
-![screenshot](images/reaction-pause-random.png)
+![sgrinlun](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
+Cofiwch fod 1000ms yn 1 eiliad, felly bydd saib o 1 eiliad neu fwy hyd at uchafswm o 5 eiliad (1000 + 4000 ms).
 
-You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
+Gallwch newid y rhifau '1000' a '4000' i newid yr isafswm a’r uchafswm os hoffech.
 
-+ After waiting, your game should show an image so that players know when to press their button.
++ Wedi aros, dylai eich gêm ddangos delwedd fel bod chwaraewyr yn gwybod pryd i wasgu eu botwm.
 
-![screenshot](images/reaction-image.png)
+![sgrinlun](images/reaction-image.png)
 
-+ Click 'run' to test your project. You should see your image appear after a random delay.
++ Cliciwch ar 'run' (rhedeg) i brofi eich prosiect. Dylech weld eich delwedd yn ymddangos wedi ychydig o oedi.
 
-+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
++ Ychwanegwch y cod ar ddiwedd y ddolen `forever` (am byth) i ddangos eich delwed am 1 eiliad ac yna clirio’r sgrin.
 
-![screenshot](images/reaction-clear.png)
+![sgrinlun](images/reaction-clear.png)
 
-+ Test your project. You should see your image appear randomly and then disappear.
++ Profi eich prosiect. Dylech weld eich delwedd yn ymddangos ar hap ac yna’n diflannu.
