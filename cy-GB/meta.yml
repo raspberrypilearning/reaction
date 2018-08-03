@@ -1,33 +1,33 @@
 ---
 hero_image: images/reaction.png
-theme: turquoise
+theme: glaswyrdd
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Reaction
-description: Make a game to see who has the fastest reactions.
+title: Adwaith
+description: Creu gêm i weld pwy sy'n adweithio gyflymaf.
 original_url: https://codeclubprojects.org/en-GB/microbit/reaction
-interests: games
+interests: gemau
 technologies: microbit
-site_areas: projects
+site_areas: prosiectau
 hardware: microbit
 software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Cyflwyniad
   - 
-    title: Wait for it!
+    title: Arhoswch amdano!
   - 
-    title: 'Challenge: Choose your own image'
+    title: 'Her: Dewis eich delwedd eich hun'
   - 
-    title: 'Challenge: Choose your own delay'
+    title: 'Her: Dewis eich oedi eich hun'
   - 
-    title: Waiting for a winner
+    title: Aros am enillydd
   - 
-    title: Who is the fastest?
+    title: Pwy yw’r cyflymaf?
   - 
-    title: 'Challenge: Keep score'
+    title: 'Her: Cadw sgôr'
