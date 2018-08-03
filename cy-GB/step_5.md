@@ -1,33 +1,33 @@
-## Waiting for a winner
+## Aros am enillydd
 
-Let's add code to wait until a button is pressed.
+Beth am ychwanegu cod i aros nes bydd botwm wedi ei wasgu.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ Wedi arddangos delwedd, bydd angen i chi aros nes bydd rhywun arall yn gwasgu ei fotwm.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+Ffordd arall o ddweud hyn yw y bydd angen i chi aros tra bydd botwm A **a** botwm B **heb** eu gwasgu.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+I wneud hyn, ychwanegwch ddolen `while` (tra) o’r adran 'Control' (Rheoli). Dylai’r ddolen `while` (tra) gael ei hychwanegu ychydig wedi’r bloc `draw` (tynnu).
 
-![screenshot](images/reaction-while.png)
+![sgrinlun](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ Llusgwch floc `and` (a) o 'Logic' i’ch bloc `while` (tra):
 
-![screenshot](images/reaction-and.png)
+![sgrinlun](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ Llusgwch `not` (nid) o 'Logic' i ochr chwith yr `and` (ac):
 
-![screenshot](images/reaction-not.png)
+![sgrinlun](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ Llusgwch floc `button A is pressed` (gwasgwyd botwm A) o 'Input' (Mewnbwn) wedi’r `not` (nid):
 
-![screenshot](images/reaction-button-a.png)
+![sgrinlun](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ Ailadroddwch y 2 gam uchod i ychwanegu `not button B is pressed` (nid botwm B wedi ei wasgu) i'r ochr `right` (dde) o’ch dolen tra.
 
-![screenshot](images/reaction-button-b.png)
+![sgrinlun](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ Yna gallwch ychwanegu oedi byr iawn (20ms), fel bod eich dolen `while` (tra) yn aros cyn belled nad oes botwm wedi ei wasgu.
 
-![screenshot](images/reaction-delay.png)
+![sgrinlun](images/reaction-delay.png)
 
-+ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Profi eich prosiect. Dylai eich gêm nawr arddangos delwedd ac yna aros tra bydd botymau A **a** B **heb** eu gwasgu.
