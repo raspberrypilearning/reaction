@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own image
+## Her: Dewis eich delwedd eich hun
 
-Can you change the image that's displayed?
+Allwch chi newid y ddelwedd a ddangosir?
 
 \--- /challenge \---
