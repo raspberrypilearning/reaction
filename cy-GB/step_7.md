@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Keep score
+## Her: Cadw sgôr
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+Allwch chi ddefnyddio dau amrywiolyn o’r enw `playerA` a `playerB` i gadw trywydd o sgôr pob chwaraewr?
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+Bydd angen i chi osod y ddau sgôr i 0 ar ddechrau'r gêm trwy osod y cod yn y bloc ‘ar gychwyn’.
 
-![screenshot](images/reaction-on-start.png)
+![sgrinlun](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+Ac ychwanegu 1 i pa bynnag un sy'n ennill pob rownd.
 
-You'll also need to think of a way to display the score.
+Byddwch hefyd angen meddwl am ffordd i arddangos y sgôr.
 
 \--- /challenge \---
