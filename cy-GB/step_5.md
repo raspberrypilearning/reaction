@@ -26,7 +26,7 @@ I wneud hyn, ychwanegwch ddolen `while` (tra) o’r adran 'Control' (Rheoli). Dy
 
 ![sgrinlun](images/reaction-button-b.png)
 
-+ Yna gallwch ychwanegu oedi byr iawn (20ms), fel bod eich dolen `while` (tra) yn aros cyn belled nad oes botwm wedi ei wasgu.
++ Yna gallwch ychwanegu oedi byr iawn (20ms), fel bod eich dolen `while` (tra) yn aros cyn belled ag nad oes botwm wedi ei wasgu.
 
 ![sgrinlun](images/reaction-delay.png)
 
