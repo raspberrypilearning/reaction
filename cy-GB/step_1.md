@@ -10,7 +10,7 @@ Rydych chi'n mynd i greu gêm i 2 chwaraewr i weld pwy sy'n adweithio gyflymaf. 
 
 ### Gwybodaeth atodol i arweinwyr clybiau
 
-Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [Fersiwn hwylus i argraffu](https://projects.raspberrypi.org/en/projects/reaction/print).
+Os oes angen i chi argraffu'r prosiect hwn, defnyddiwch y [Fersiwn hwylus i argraffu](https://projects.raspberrypi.org/cy-GB/projects/reaction/print).
 
 --- collapse ---
 ---
