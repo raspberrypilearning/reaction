@@ -1,8 +1,8 @@
 ## Pwy yw’r cyflymaf?
 
-Beth am weld pwy wasgodd ei fotwm gyntaf.
+Gadewch i ni weld pwy wasgodd ei fotwm gyntaf.
 
-+ Os gwasgwyd botwm A, rydym angen pwyntio at chwaraewr A. I wneud hyn, ychwanegwch floc `if` (os) wedi eich dolen `while` (tra), ac amnewid `test` (prawf) gyda `button A is pressed` (botwm A wedi ei wasgu).
++ Os gwasgwyd botwm A, rydym angen pwyntio at chwaraewr A. I wneud hyn, ychwanegwch floc `if` (os) ar ôl eich dolen `while` (tra), a newid `test` (prawf) am `button A is pressed` (botwm A wedi ei wasgu).
 
 ![sgrinlun](images/reaction-if-a.png)
 
