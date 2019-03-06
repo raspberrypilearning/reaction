@@ -4,7 +4,7 @@ Let's start by displaying an image after a random amount of time.
 
 
 
-+ Go to <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'. 
++ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'. 
 
 + Before displaying an image, the game should wait for a random amount of time.
 
