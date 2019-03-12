@@ -1,15 +1,15 @@
-## Who is the fastest?
+## सबसे तेज़ कौन है?
 
-Let's find out who pressed their button first.
+आइए जानें कि सबसे पहले अपना बटन किसने दबाया था।
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `button A is pressed`.
++ यदि बटन A दबाया गया था, तो हम खिलाड़ी A को इंगित करना चाहते हैं। ऐसा करने के लिए, अपने `while` (जबकि) लूप के बाद एक `if` (यदि) ब्लॉक जोड़ें, और `test` (परीक्षण) को `button A is pressed` (बटन A दबाया गया है) से बदलें।
 
-![screenshot](images/reaction-if-a.png)
+![स्क्रीनशॉट](images/reaction-if-a.png)
 
-+ You can then use the `show leds` block to show an arrow pointing to player A.
++ फिर आप खिलाड़ी A को इंगित करने वाला तीर दिखाने के लिए `show leds` (लेड दिखाएँ) ब्लॉक का उपयोग कर सकते हैं।
 
-![screenshot](images/reaction-if-a-show.png)
+![स्क्रीनशॉट](images/reaction-if-a-show.png)
 
-+ You should also do the same for button B.
++ आपको बटन B के लिए भी ऐसा ही करना चाहिए।
 
-![screenshot](images/reaction-if-b-show.png)
+![स्क्रीनशॉट](images/reaction-if-b-show.png)
