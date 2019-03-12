@@ -1,33 +1,33 @@
 ---
 hero_image: images/reaction.png
-theme: turquoise
+theme: फ़िरोज़ी
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Reaction
-description: Make a game to see who has the fastest reactions.
+title: प्रतिक्रिया
+description: यह देखने के लिए एक गेम बनाएँ कि सबसे तेज प्रतिक्रिया कौन करता है।
 original_url: https://codeclubprojects.org/en-GB/microbit/reaction
-interests: games
+interests: गेम
 technologies: microbit
-site_areas: projects
+site_areas: प्रोजेक्ट
 hardware: microbit
 software: ''
 version: 3.0.1
 last_tested: 2019-03-06
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Wait for it!
+    title: इसके लिए प्रतीक्षा करें!
   - 
-    title: 'Challenge: Choose your own image'
+    title: 'चुनौती: अपनी खुद की छवि चुनें'
   - 
-    title: 'Challenge: Choose your own delay'
+    title: 'चुनौती: अपनी खुद की देरी चुनें'
   - 
-    title: Waiting for a winner
+    title: विजेता की प्रतीक्षा में
   - 
-    title: Who is the fastest?
+    title: सबसे तेज़ कौन है?
   - 
-    title: 'Challenge: Keep score'
+    title: 'चुनौती: स्कोर रखें'
