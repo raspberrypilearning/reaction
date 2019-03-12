@@ -1,31 +1,31 @@
-## Wait for it!
+## इसके लिए प्रतीक्षा करें!
 
-Let's start by displaying an image after a random amount of time.
+आइए यादृच्छिक समय के बाद एक छवि प्रदर्शित करने से शुरू करते हैं।
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
++ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. अपने नए प्रोजेक्ट को 'प्रतिक्रिया' नाम दें।
 
-+ Before displaying an image, the game should wait for a random amount of time.
++ कोई छवि प्रदर्शित करने से पहले, गेम को यादृच्छिक समय के लिए प्रतीक्षा करनी चाहिए।
 
-Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
+`pause` (विराम) ब्लॉक को `forever` (हमेशा के लिए) ब्लॉक में ड्रैग करें और विराम के समय को बदलकर 1000 ms करें:
 
-![screenshot](images/reaction-pause.png)
+![स्क्रीनशॉट](images/reaction-pause.png)
 
-+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
++ एक और `pause` (विराम) ब्लॉक जोड़ें और फिर `pause` (विराम) ब्लॉक में `pick random` (यादृच्छिक चुनें) ब्लॉक ड्रैग करें और इसका मान 4000 पर सेट करें:
 
-![screenshot](images/reaction-pause-random.png)
+![स्क्रीनशॉट](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
+याद रखें कि 1000ms 1 सेकंड होता है, इसलिए कम से कम 1 सेकंड तक से लेकर अधिकतम 5 सेकंड (1000 + 4000 ms) तक का विराम होगा।
 
-You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
+यदि आप चाहें तो न्यूनतम और अधिकतम विराम को बदलने के लिए आप '1000' और '4000' संख्याओं को बदल सकते हैं।
 
-+ After waiting, your game should show an image so that players know when to press their button.
++ प्रतीक्षा करने के बाद, आपके गेम को एक छवि दिखानी चाहिए ताकि खिलाड़ियों को पता चल सके कि उन्हें अपना बटन कब दबाना है।
 
-![screenshot](images/reaction-image.png)
+![स्क्रीनशॉट](images/reaction-image.png)
 
-+ Click 'run' to test your project. You should see your image appear after a random delay.
++ अपने प्रोजेक्ट का परीक्षण करने के लिए 'run' (चलाएँ) पर क्लिक करें। यादृच्छिक देरी (random delay) के बाद आपको अपनी छवि दिखाई देनी चाहिए।
 
-+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
++ लूप को अपनी छवि को 1 सेकंड के लिए प्रदर्शित करने और फिर डिस्प्ले को साफ़ करने के लिए `forever` (हमेशा के लिए) लूप के अंत में कोड जोड़ें।
 
-![screenshot](images/reaction-clear.png)
+![स्क्रीनशॉट](images/reaction-clear.png)
 
-+ Test your project. You should see your image appear randomly and then disappear.
++ अपने प्रोजेक्ट का परीक्षण करें। आपको यह दिखाई देना चाहिए कि आपकी छवि यादृच्छिक रूप से दिखाई देती है और फिर गायब हो जाती है।
