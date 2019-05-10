@@ -2,7 +2,7 @@
 
 आइए यादृच्छिक समय के बाद एक छवि प्रदर्शित करने से शुरू करते हैं।
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. अपने नए प्रोजेक्ट को 'प्रतिक्रिया' नाम दें।
++ MakeCode (PXT) संपादक में एक नया प्रोजेक्ट शुरू करने के लिए <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> पर जाएंँ। अपने नए प्रोजेक्ट को 'प्रतिक्रिया' नाम दें।
 
 + कोई छवि प्रदर्शित करने से पहले, गेम को यादृच्छिक समय के लिए प्रतीक्षा करनी चाहिए।
 
