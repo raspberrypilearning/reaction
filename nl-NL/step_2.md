@@ -2,7 +2,7 @@
 
 Laten we beginnen met het weergeven van een afbeelding na een willekeurige hoeveelheid tijd.
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Noem je nieuwe project 'Reactie'.
++ Ga naar <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> om een ​​nieuw project te starten in de MakeCode (PXT) editor. Noem je nieuwe project 'Reactie'.
 
 + Voordat een afbeelding wordt weergegeven, moet het spel een willekeurige hoeveelheid tijd wachten.
 
