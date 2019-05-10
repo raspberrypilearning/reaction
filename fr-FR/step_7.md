@@ -1,15 +1,15 @@
---- challenge ---
-## Défi: Conserve le score
-Peux tu utiliser deux  variables appellées `joueur1` et `joueurB` pour garder une trace du score de chaque joueur ?
+\--- challange \---
 
-Tu auras besoin de mettre les deux scores à 0 au démarrage du jeu en plaçant ton code dans le bloc 'au démarrage'.
+## Challenge: Keep score
 
-![screenshot](images/reaction-on-start.png)
+Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
 
-Et ajoute 1 à chaque joueur qui gagne une manche.
+You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
 
-Tu devras penser aussi à un moyen d'afficher le score.
+![capture d'écran](images/reaction-on-start.png)
 
+And add 1 to whichever player wins each round.
 
+You'll also need to think of a way to display the score.
 
---- /challenge ---
+\--- /challenge \---
