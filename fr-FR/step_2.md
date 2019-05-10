@@ -1,31 +1,31 @@
-## A vos marques&nbsp;!
+## Wait for it!
 
-Commençons par afficher une image après un délai d'une durée aléatoire.
+Let's start by displaying an image after a random amount of time.
 
-+ Va sur <a href="http://jumpto.cc/pxt-new" target="_blank">jumpto.cc/pxt-new</a> et démarre un nouveau projet dans l'éditeur PXT. Appelle ton  ouveau projet 'Reaction'. 
++ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
 
-+ Avant d'afficher une image, le jeu doit attendre pendant une durée aléatoire.
++ Before displaying an image, the game should wait for a random amount of time.
 
-Place un bloc `pause` dans le bloc `toujours` et change la valeur de pause en mettant 1000 ms&nbsp;:
+Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
 
 ![screenshot](images/reaction-pause.png)
 
-+ Ajoute un autre bloc `pause` et place un bloc `choisir au hasard` dans la valeur du bloc `pause` et met sa valeur à 4000&nbsp;:
++ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
 
-![screenshot](images/reaction-pause-random.png)
+![capture d'écran](images/reaction-pause-random.png)
 
-Souviens toi que 1000 ms font 1 seconde, donc il y aura une pause d'au moins une seconde et d'un maximum de 5 secondes (1000 + 4000 ms).
+Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
 
-Tu peux faire changer les valeurs '1000' et '4000' modifier le minimum et le maximum de pause si tu le souhaites.
+You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
 
-+ Après l'attente, le jeu doit montrer une image pour que les joueurs sachent qu'ils doivent appuyer sur leur bouton.
++ After waiting, your game should show an image so that players know when to press their button.
 
-![screenshot](images/reaction-image.png)
+![capture d'écran](images/reaction-image.png)
 
-+ Clique 'lancer' pour tester ton projet. Tu devrais voir apparaître une image après un délai aléatoire.
++ Click 'run' to test your project. You should see your image appear after a random delay.
 
-+ Ajoute du code à la fin de la boucle `toujours` pour afficher ton image pendant 1 seconde puis effacer l'affichage.
++ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
 
-![screenshot](images/reaction-clear.png)
+![capture d'écran](images/reaction-clear.png)
 
-+ Teste ton projet. Tu doit voir ton image apparaître aléatoirement puis disparaître.
++ Test your project. You should see your image appear randomly and then disappear.
