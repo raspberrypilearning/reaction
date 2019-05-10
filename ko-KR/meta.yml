@@ -1,0 +1,33 @@
+---
+hero_image: images/reaction.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
+title: Reaction
+description: Make a game to see who has the fastest reactions.
+original_url: https://codeclubprojects.org/en-GB/microbit/reaction
+interests: 게임
+technologies: microbit
+site_areas: projects
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-03-06
+steps:
+  - 
+    title: 소개
+  - 
+    title: Wait for it!
+  - 
+    title: 'Challenge: Choose your own image'
+  - 
+    title: 'Challenge: Choose your own delay'
+  - 
+    title: Waiting for a winner
+  - 
+    title: Who is the fastest?
+  - 
+    title: 'Challenge: Keep score'
