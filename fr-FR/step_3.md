@@ -1,6 +1,7 @@
---- challenge ---
-## Défi: Choisis ta propre image 
-Peux tu changer l'image qui s'affiche&nbsp;?
+\--- challange \---
 
+## Challenge: Choose your own image
 
---- /challenge ---
+Can you change the image that's displayed?
+
+\--- /challenge \---
