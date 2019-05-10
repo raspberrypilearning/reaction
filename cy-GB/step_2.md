@@ -2,7 +2,7 @@
 
 Gadewch i ni ddechrau trwy arddangos delwedd ar ôl cyfnod o amser a bennir ar hap.
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Galwch eich prosiect newydd yn 'Adweithio'.
++ Ewch i <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> i ddechrau prosiect newydd yn y golygydd MakeCode (PXT). Galwch eich prosiect newydd yn 'Adweithio'.
 
 + Cyn arddangos delwedd, dylai'r gêm aros am gyfnod o amser a bennir ar hap.
 
