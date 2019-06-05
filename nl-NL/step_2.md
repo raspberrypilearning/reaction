@@ -20,7 +20,7 @@ Je kunt de cijfers '1000' en '4000' wijzigen om de minimale en maximale pauze te
 
 + Na het wachten moet je spel een afbeelding laten zien zodat spelers weten wanneer ze op hun knop moeten drukken.
 
-![screenshot](images/reaction-image.png)
+![schermafdruk](images/reaction-image.png)
 
 + Klik op 'Start de simulator' om je project te testen. Je zou je afbeelding na een willekeurige vertraging moeten zien verschijnen.
 
