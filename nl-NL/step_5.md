@@ -20,7 +20,7 @@ Voeg hiervoor een `terwijl` lus in het gedeelte 'Besturing'. De `terwijl` lus mo
 
 + Sleep een `knop A wordt ingedrukt` blok van 'Invoer' naar na het `niet` blok:
 
-![screenshot](images/reaction-button-a.png)
+![schermafdruk](images/reaction-button-a.png)
 
 + Herhaal de 2 bovenstaande stappen om een `niet knop B wordt ingedrukt` in de `rechter` zijde van je terwijl lus te plaatsen.
 
