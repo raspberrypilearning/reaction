@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Keep score
+## Provocare: Ține scorul
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+Poți folosi două variabile numite `JucatorA` și `JucatorB` pentru a ține evidența scorului fiecărui jucător?
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+Va trebui să setezi ambele scoruri la 0 la începutul jocului adăugând cod în blocul „on start”.
 
 ![captură de ecran](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+Și adaugă 1 la oricare dintre jucătorii care câștigă fiecare rundă.
 
-You'll also need to think of a way to display the score.
+Va fi nevoie să te gândești și la o modalitate de a afișa scorul.
 
 \--- /challenge \---
