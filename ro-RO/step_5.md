@@ -1,33 +1,33 @@
-## Waiting for a winner
+## În așteptarea unui câștigător
 
-Let's add code to wait until a button is pressed.
+Să adăugăm codul pentru a aștepta până când se apasă un buton.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ După afișarea unei imagini, va trebui să aștepți până când cineva își apasă butonul.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+Un alt mod de a spune acest lucru este că va trebui să aștepți atâta timp cât butonul A și (**and**) butonul B nu (**not**) au fost apăsate.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+Pentru a face acest lucru, adaugă o buclă `while` din secțiunea „Control“. Bucla `while` trebuie adăugată imediat după blocul `show leds`.
 
 ![captură de ecran](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ Trage un bloc `and` din secțiunea „Logic” în blocul tău `while`:
 
 ![captură de ecran](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ Trage un bloc `not` din „Logic” în partea stângă a blocului `and`:
 
 ![captură de ecran](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ Trage un bloc `button A is pressed` din „Input” după blocul `not`:
 
 ![captură de ecran](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ Repetă cei doi pași de mai sus pentru a adăuga `not button B is pressed` în partea `dreapta` a buclei tale „while”.
 
 ![captură de ecran](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ Poți să adaugi o întârziere foarte scurtă (20ms), astfel încât bucla ta `while` să aștepte atâta timp cât nu a fost apăsat un buton.
 
 ![captură de ecran](images/reaction-delay.png)
 
-+ Salvați proiectul. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Testează proiectul tău. Jocul tău ar trebui să afișeze acum o imagine și apoi să aștepte atâta timp cât butoanele A **și** B **nu** au fost apăsate.
