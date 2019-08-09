@@ -1,15 +1,15 @@
-## Who is the fastest?
+## Cine este cel mai rapid?
 
-Let's find out who pressed their button first.
+Să aflăm cine și-a apăsat mai întâi butonul.
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `button A is pressed`.
++ Dacă a fost apăsat butonul A, vrem să arătăm spre jucătorul A. Pentru a face acest lucru, adaugă un bloc `if` după bucla `while`, și adaugă la noul bloc `button A is pressed`.
 
 ![captură de ecran](images/reaction-if-a.png)
 
-+ You can then use the `show leds` block to show an arrow pointing to player A.
++ Apoi poți folosi blocul `show leds` pentru a afișa o săgeată îndreptată către jucătorul A.
 
 ![captură de ecran](images/reaction-if-a-show.png)
 
-+ You should also do the same for button B.
++ Ar trebui să faci același lucru și pentru butonul B.
 
 ![captură de ecran](images/reaction-if-b-show.png)
