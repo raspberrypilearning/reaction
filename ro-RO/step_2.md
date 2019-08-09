@@ -1,31 +1,31 @@
-## Wait for it!
+## Pe locuri!
 
-Let's start by displaying an image after a random amount of time.
+Să începem prin afișarea unei imagini după o perioadă aleatorie de timp.
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
++ Mergi la <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> pentru a începe un proiect nou în editorul MakeCode (PXT). Numește noul tău proiect „Reflexe”.
 
-+ Before displaying an image, the game should wait for a random amount of time.
++ Înainte de a afișa o imagine, jocul ar trebui să aștepte o perioadă aleatorie de timp.
 
-Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
+Trage un bloc `pause` în blocul `forever` și modifică timpul de pauză la 1000 ms:
 
 ![captură de ecran](images/reaction-pause.png)
 
-+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
++ Adaugă un alt bloc `pause` și trage apoi un bloc `pick random` în blocul de `pause` și setează-i valoarea la 4000:
 
 ![captură de ecran](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
+Amintește-ți că 1000ms este 1 secundă, deci va exista o pauză de cel puțin 1 secundă până la maximum 5 secunde (1000 + 4000 ms).
 
-You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
+Poți schimba numerele „1000” și „4000” pentru a schimba pauza minimă și maximă dacă dorești.
 
-+ After waiting, your game should show an image so that players know when to press their button.
++ După așteptare, jocul tău ar trebui să afișeze o imagine, astfel încât jucătorii să știe când să apese butonul.
 
 ![captură de ecran](images/reaction-image.png)
 
-+ Click 'run' to test your project. You should see your image appear after a random delay.
++ Codul tău ar trebui sa fie executat automat. Ar trebui să vezi imaginea ta după o întârziere aleatorie.
 
-+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
++ Adaugă cod la sfârșitul buclei `forever` pentru a afișa imaginea ta timp de 1 secundă, apoi șterge afișajul.
 
 ![captură de ecran](images/reaction-clear.png)
 
-+ Salvați proiectul. You should see your image appear randomly and then disappear.
++ Testează proiectul. Ar trebui să vezi că imaginea ta apare la un moment aleatoriu și apoi dispare.
