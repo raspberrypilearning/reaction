@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own delay
+## Provocare: Alege propria ta întârziere
 
-Change the numbers in your `random` block. You can speed up your game to make it harder, or slow it down to add suspense!
+Modifică numerele din blocul `random`. Poți accelera jocul pentru a-l face mai greu, sau îl poți încetini pentru a crește suspansul!
 
 \--- /challenge \---
