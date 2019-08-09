@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own image
+## Provocare: Alege propria ta imagine
 
-Can you change the image that's displayed?
+Poți modifica imaginea care este afișată acum?
 
 \--- /challenge \---
