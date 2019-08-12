@@ -1,0 +1,26 @@
+---
+hero_image: images/reaction.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Reflexe
+description: Fă un joc ca să vezi cine are reflexele cele mai rapide.
+original_url: https://codeclubprojects.org/en-GB/microbit/reaction
+interests: games
+technologies: microbit
+site_areas: projects
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-03-06
+steps:
+  - title: Introducere
+  - title: Pe locuri!
+  - title: 'Provocare: Alege propria ta imagine'
+  - title: 'Provocare: Alege propria ta întârziere'
+  - title: În așteptarea unui câștigător
+  - title: Cine este cel mai rapid?
+  - title: 'Provocare: Ține scorul'
