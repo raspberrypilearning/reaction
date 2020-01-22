@@ -5,11 +5,11 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Reaction
 description: Make a game to see who has the fastest reactions.
 original_url: https://codeclubprojects.org/en-GB/microbit/reaction
-interests: 게임
+interests: games
 technologies: microbit
 site_areas: projects
 hardware: microbit
@@ -18,7 +18,7 @@ version: 3.0.1
 last_tested: 2019-03-06
 steps:
   - 
-    title: 소개
+    title: Introduction
   - 
     title: Wait for it!
   - 
