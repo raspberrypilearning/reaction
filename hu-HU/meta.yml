@@ -1,5 +1,5 @@
 ---
-hero_image: images / reaction.png
+hero_image: images/reaction.png
 theme: turquoise
 duration: 2
 listed: true
@@ -18,7 +18,7 @@ version: 3.0.1
 last_tested: 2019-03-06
 steps:
   - 
-    title: Bevezetés
+    title: Introduction
   - 
     title: Wait for it!
   - 
