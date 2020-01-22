@@ -12,4 +12,4 @@ And add 1 to whichever player wins each round.
 
 You'll also need to think of a way to display the score.
 
-Und ergänze den CSS-Code in <0>style.css</0>, um das Bild zu positionieren.
+\--- /challenge \---
