@@ -1,33 +1,33 @@
-## Waiting for a winner
+## Oczekiwanie na zwycięzcę
 
-Let's add code to wait until a button is pressed.
+Dodajmy kod, aby poczekać aż przycisk zostanie wciśnięty.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ Po wyświetleniu obrazu, musisz poczekać aż ktoś naciśnie przycisk.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+Innym sposobem powiedzenia tego jest to, że musisz poczekać tak długo, jak przycisk A **i** przycisk B **nie** został wciśnięty.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+Aby to zrobić, dodaj pętlę `while` z sekcji "Control". Pętla `while` powinna zostać dodana tuż po bloku `draw`.
 
 ![zrzut ekranu](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ Przeciągnij blok `and` z sekcji 'Logic' do twojego bloku `while`:
 
 ![zrzut ekranu](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ Przeciągnij `not` z 'Logic' na lewą stronę bloku `and`:
 
 ![zrzut ekranu](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ Przeciągnij blok `button A is pressed` z sekcji 'Input' i umieść go za blokiem `not`:
 
 ![zrzut ekranu](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ Powtórz dwa powyższe kroki, aby dodać `not button B is pressed` z `prawej` strony twojej pętli "while".
 
 ![zrzut ekranu](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ Następnie możesz dodać bardzo krótkie (20 ms) opóźnienie, aby Twoja pętla `while` czekała, dopóki przycisk nie zostanie naciśnięty.
 
 ![zrzut ekranu](images/reaction-delay.png)
 
-+ Przetestuj swój projekt. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Przetestuj swój projekt. Twoja gra powinna teraz wyświetlać obraz, a następnie czekać tak długo, jak przyciski A **i** B **nie** zostały wciśnięte.
