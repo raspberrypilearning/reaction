@@ -1,15 +1,15 @@
-\--- wyzwanie \---
+\--- challenge \---
 
-## Challenge: Keep score
+## Wyzwanie: Zachowaj wynik
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+Czy możesz użyć dwóch zmiennych o nazwach `graczA` i `graczB` aby śledzić wyniki każdego gracza?
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+Na początku gry musisz ustawić oba wyniki na 0, umieszczając kod w bloku „on start”.
 
 ![zrzut ekranu](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+I dodaj 1 dla gracza, który wygra każdą z rund.
 
-You'll also need to think of a way to display the score.
+Musisz również pomyśleć o sposobie wyświetlania wyniku.
 
 \--- /challenge \---
