@@ -1,4 +1,4 @@
-\--- завдання \---
+\--- challenge \---
 
 ## Challenge: Choose your own image
 
