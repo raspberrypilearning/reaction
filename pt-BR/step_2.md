@@ -28,4 +28,4 @@ You can change the '1000' and '4000' numbers to change the minimum and maximum p
 
 ![screenshot](images/reaction-clear.png)
 
-+ Teste seu projeto. You should see your image appear randomly and then disappear.
++ Test your project. You should see your image appear randomly and then disappear.
