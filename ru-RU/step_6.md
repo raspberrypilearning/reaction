@@ -8,8 +8,8 @@ Let's find out who pressed their button first.
 
 + You can then use the `show leds` block to show an arrow pointing to player A.
 
-![скриншот](images/reaction-if-a-show.png)
+![screenshot](images/reaction-if-a-show.png)
 
 + You should also do the same for button B.
 
-![скриншот](images/reaction-if-b-show.png)
+![screenshot](images/reaction-if-b-show.png)
