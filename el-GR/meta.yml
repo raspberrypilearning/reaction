@@ -15,10 +15,10 @@ site_areas: projects
 hardware: microbit
 software: ''
 version: 3.0.1
-last_tested: 06-03-2019
+last_tested: 2019-03-06
 steps:
   - 
-    title: Εισαγωγή
+    title: Introduction
   - 
     title: Wait for it!
   - 
