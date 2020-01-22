@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## चुनौती: स्कोर रखें
+## Challenge: Keep score
 
-क्या प्रत्येक खिलाड़ी के स्कोर का ट्रैक रखने के लिए आप `खिलाड़ीA` और `खिलाड़ीB` नाम के दो वेरिएबल का उपयोग कर सकते हैं?
+Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
 
-आपको 'on start' (ऑन स्टार्ट) ब्लॉक के अंदर कोड डालकर गेम की शुरूआत में दोनों स्कोर 0 पर सेट करने होंगे।
+You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
 
-![स्क्रीनशॉट](images/reaction-on-start.png)
+![screenshot](images/reaction-on-start.png)
 
-और जो भी खिलाड़ी प्रत्येक राउंड में जीतता है उसके आगे 1 जोड़ें।
+And add 1 to whichever player wins each round.
 
-आपको स्कोर प्रदर्शित करने के तरीके के बारे में भी सोचना होगा।
+You'll also need to think of a way to display the score.
 
 \--- /challenge \---
