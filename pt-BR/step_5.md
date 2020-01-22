@@ -30,4 +30,4 @@ To do this, add a `while` loop from the 'Control' section. The `while` loop shou
 
 ![screenshot](images/reaction-delay.png)
 
-+ Teste seu projeto. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
