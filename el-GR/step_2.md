@@ -8,7 +8,7 @@ Let's start by displaying an image after a random amount of time.
 
 Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
 
-![screenshot (στιγμιότυπο οθόνης)](images/reaction-pause.png)
+![screenshot](images/reaction-pause.png)
 
 + Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
 
