@@ -4,4 +4,4 @@
 
 Can you change the image that's displayed?
 
-\--- /thử thách \---
+\--- /challenge \---
