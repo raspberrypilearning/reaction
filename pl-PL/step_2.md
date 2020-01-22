@@ -1,31 +1,31 @@
-## Wait for it!
+## Czekaj na to!
 
-Let's start by displaying an image after a random amount of time.
+Zacznijmy od wyświetlania obrazu po losowym odstępie czasu.
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
++ Przejdź do <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a>, aby rozpocząć nowy projekt w edytorze MakeCode (PXT). Nazwij swój nowy projekt „Refleks”.
 
-+ Before displaying an image, the game should wait for a random amount of time.
++ Przed wyświetleniem obrazu gra powinna odczekać losowy okres czasu.
 
-Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
+Przeciągnij blok `pause` do bloku `forever` i zmień czas wstrzymania na 1000 ms:
 
 ![zrzut ekranu](images/reaction-pause.png)
 
-+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
++ Dodaj kolejny blok `pause` a następnie przeciągnij blok `pick random` do bloku `pause` i ustaw jego wartość na 4000:
 
 ![zrzut ekranu](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
+Pamiętaj, że 1000 ms to 1 sekunda, więc przerwa wyniesie co najmniej jedną sekundę a maksymalnie pięć sekund (1000 + 4000 ms).
 
-You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
+Jeżeli chcesz, możesz zmienić liczby „1000” i „4000”, aby zmienić minimalną i maksymalną długość pauzy.
 
-+ After waiting, your game should show an image so that players know when to press their button.
++ Po odczekaniu gra powinna wyświetlić obraz, aby gracze wiedzieli, kiedy nacisnąć przycisk.
 
 ![zrzut ekranu](images/reaction-image.png)
 
-+ Click 'run' to test your project. You should see your image appear after a random delay.
++ Kliknij 'run', aby przetestować swój projekt. Powinieneś zobaczyć, jak twój obraz pojawi się z losowym opóźnieniem.
 
-+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
++ Dodaj kod na końcu pętli `forever`, aby wyświetlić obraz przez 1 sekundę, a następnie wyczyść ekran.
 
 ![zrzut ekranu](images/reaction-clear.png)
 
-+ Przetestuj swój projekt. You should see your image appear randomly and then disappear.
++ Przetestuj swój projekt. Powinieneś zobaczyć, jak obraz pojawia się losowo, a następnie znika.
