@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Keep score
 Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
 
