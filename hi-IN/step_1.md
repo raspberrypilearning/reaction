@@ -1,66 +1,66 @@
-## परिचय
+## Introduction
 
-आप यह देखने के लिए 2-खिलाड़ी का गेम बनाने जा रहे हैं कि सबसे तेज प्रतिक्रियाएँ कौन करता है। गेम एक यादृच्छिक समय के बाद एक छवि दिखाकर शुरू होगी - जो भी अपना बटन पहले दबाएगा वह विजेता होगा।
+You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
 
-**निर्देश**: यदि आप इसे ऑनलाइन पढ़ रहे हैं, तो नीचे micro:bit (माइक्रो:बिट) पर किसी छवि के प्रदर्शित होने की प्रतीक्षा करें और फिर यह देखने के लिए **A** या **B** को सबसे पहले दबाएँ कि सबसे तेज़ कौन है।
+**Instructions**: If you're reading this online, wait for an image to display on the micro:bit below and then press **A** or **B** first to see who is the fastest.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_RAu6KxHvEXMp" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### क्लब लीडरों के लिए अतिरिक्त जानकारी
+### Additional information for club leaders
 
-यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/reaction/print) का उपयोग करें।
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print).
 
 ## \--- collapse \---
 
-## title: क्लब नेता नोट्स
+## title: Club leader notes
 
-## परिचय:
+## Introduction:
 
-इस प्रोजेक्ट में, बच्चे एक प्रतिक्रिया खेल तैयार करेंगे। यादृच्छिक समय के बाद micro:bit पर एक छवि प्रदर्शित की जाएगी - जो व्यक्ति अपने बटन को सबसे पहले दबाएगा वह विजेता होगा।
+In this project, children will make a reaction game. An image will be displayed on the micro:bit after a random amount of time - the first person to press their button is the winner.
 
-बच्चे पिछले प्रोजेक्टों में उपयोग की गई सभी कोडिंग संकल्पनाओं का उपयोग करेंगे, और साथ ही बटन दबाए जाने तक प्रतीक्षा करने के लिए बूलियन ऑपरेटरों का उपयोग करेंगे।
+Children will make use of all of the coding concepts used in previous projects, as well as using Boolean operators to wait until a button has been pressed.
 
-## संसाधन
+## Resources
 
-इस प्रोजेक्ट के लिए, [MakeCode (PXT)](http://jumpto.cc/pxt-new) माइक्रोबिट संपादक का उपयोग किया जाना चाहिए।
+For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
-आप इस प्रोजेक्ट का पूर्ण किया गया संस्करण [makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898) पर प्राप्त कर सकते हैं, और संकलित .hex फाइल 'Download Project Materials' लिंक पर क्लिक करके डाउनलोड की जा सकती है, जिसमे शामिल है:
+You can find a completed version of this project at [makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + microbit-Reaction.hex
 
-"स्कोर रखें" चुनौती वाले पूर्ण किए गए प्रोजेक्ट का संस्करण भी है। यह [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147) पर मिल सकता है, और संकलित .hex फाइल 'प्रोजेक्ट सामग्री डाउनलोड करें' लिंक पर क्लिक करके डाउनलोड की जा सकती है, जिसमे शामिल है:
+There is also a version of the project with the "Keep score" challenge completed. This can be found at [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
 
 + microbit-Reaction-Score.hex
 
-## अध्ययन के उद्देश्य
+## Learning Objectives
 
-+ बूलियन आपरेटर्स: 
-    + और;
-    + नहीं।
++ Boolean operators: 
+    + AND;
+    + NOT.
 
-इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित पहलुओं के तत्व सम्मिलित हैं:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [साधारण प्रोग्राम बनाने के लिए आधारभूत संरचनाओं का उपयोग करें।](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## चुनौतियाँ
+## Challenges
 
-+ "अपनी खुद की छवि चुनें" - micro:bit पर प्रदर्शित छवि को बदलना।
-+ "अपनी खुद की देरी चुनें" - पैरामीटर को `random` (यादृच्छिक) फंक्शन में बदलना।
-+ "स्कोर रखें" - खिलाड़ियों के स्कोर का ट्रैक रखने के लिए वेरिएबल का उपयोग करें।
++ "Choose your own image" - changing the image displayed on the micro:bit.
++ "Choose your own delay" - changing the parameters to the `random` function.
++ "Keep score" - use variables to keep track of player scores.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: प्रोजेक्ट सामग्री
+## title: Project materials
 
-## क्लब नेता संसाधन
+## Club leader resources
 
-+ [ऑनलाइन पूर्ण प्रोजेक्ट](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
-+ [ऑनलाइन पूर्ण प्रोजेक्ट, 'स्कोर रखें' चुनौती सहित](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
-+ [आपके micro:bit पर स्थानांतरित करने के लिए.hex प्रोजेक्ट फ़ाइल](resources/microbit-Reaction.hex)
-+ ['स्कोर रखें' चुनौती सहित.hex प्रोजेक्ट फाइल](resources/microbit-Reaction-Score.hex)
++ [online completed project](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
++ [online completed project, including 'Keep score' challenge](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
++ [.hex project file to transfer onto your micro:bit](resources/microbit-Reaction.hex)
++ [.hex project file including 'Keep Score' challenge](resources/microbit-Reaction-Score.hex)
 
 \--- /collapse \---
