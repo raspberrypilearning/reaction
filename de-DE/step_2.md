@@ -20,12 +20,12 @@ You can change the '1000' and '4000' numbers to change the minimum and maximum p
 
 + After waiting, your game should show an image so that players know when to press their button.
 
-![Screenshot](images/reaction-image.png)
+![screenshot](images/reaction-image.png)
 
 + Click 'run' to test your project. You should see your image appear after a random delay.
 
 + Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
 
-![Screenshot](images/reaction-clear.png)
+![screenshot](images/reaction-clear.png)
 
 + Test your project. You should see your image appear randomly and then disappear.
