@@ -12,22 +12,22 @@ To do this, add a `while` loop from the 'Control' section. The `while` loop shou
 
 + Drag an `and` block from 'Logic' to your `while` block:
 
-![Screenshot](images/reaction-and.png)
+![screenshot](images/reaction-and.png)
 
 + Drag a `not` from 'Logic' into the left hand side of the `and`:
 
-![Screenshot](images/reaction-not.png)
+![screenshot](images/reaction-not.png)
 
 + Drag an `button A is pressed` block from 'Input' to after the `not`:
 
-![Screenshot](images/reaction-button-a.png)
+![screenshot](images/reaction-button-a.png)
 
 + Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
 
-![Screenshot](images/reaction-button-b.png)
+![screenshot](images/reaction-button-b.png)
 
 + You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
 
-![Screenshot](images/reaction-delay.png)
+![screenshot](images/reaction-delay.png)
 
 + Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
