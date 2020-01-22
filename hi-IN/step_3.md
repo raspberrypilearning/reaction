@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## चुनौती: अपनी खुद की छवि चुनें
+## Challenge: Choose your own image
 
-क्या आप प्रदर्शित छवि को बदल सकते हैं?
+Can you change the image that's displayed?
 
 \--- /challenge \---
