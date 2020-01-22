@@ -1,7 +1,7 @@
-\--- wyzwanie \---
+\--- challenge \---
 
-## Challenge: Choose your own image
+## Wyzwanie: wybierz własny obraz
 
-Can you change the image that's displayed?
+Czy możesz zmienić wyświetlany obraz?
 
 \--- /challenge \---
