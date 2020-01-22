@@ -1,4 +1,4 @@
-## Inledning
+## Introduction
 
 You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
 
@@ -16,13 +16,13 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## title: Club leader notes
 
-## Introduktion:
+## Introduction:
 
 In this project, children will make a reaction game. An image will be displayed on the micro:bit after a random amount of time - the first person to press their button is the winner.
 
 Children will make use of all of the coding concepts used in previous projects, as well as using Boolean operators to wait until a button has been pressed.
 
-## Hjälpmedel
+## Resources
 
 For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
 
