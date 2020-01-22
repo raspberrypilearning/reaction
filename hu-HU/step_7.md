@@ -1,4 +1,4 @@
-\--- kihívás \---
+\--- challenge \---
 
 ## Challenge: Keep score
 
@@ -12,4 +12,4 @@ And add 1 to whichever player wins each round.
 
 You'll also need to think of a way to display the score.
 
-\--- / challenge \---
+\--- /challenge \---
