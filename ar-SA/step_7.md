@@ -6,7 +6,7 @@ Can you use two variables called `playerA` and `playerB` to keep track of each p
 
 You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
 
-![لقطة الشاشة](images/reaction-on-start.png)
+![screenshot](images/reaction-on-start.png)
 
 And add 1 to whichever player wins each round.
 
