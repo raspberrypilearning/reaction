@@ -1,33 +1,33 @@
-## विजेता की प्रतीक्षा में
+## Waiting for a winner
 
-आइए बटन दबाए जाने तक प्रतीक्षा करने के लिए कोड जोड़ें।
+Let's add code to wait until a button is pressed.
 
-+ छवि प्रदर्शित होने के बाद, जब तक कोई अपना बटन दबाए तब तक आपको प्रतीक्षा करनी होगी।
++ After displaying an image, you'll need to wait until someone presses their button.
 
-इसे कहने का एक और तरीका यह है कि जब तक बटन A **और** बटन B **नहीं** दबाए जाते हैं तब तक आपको प्रतीक्षा करनी होगी।
+Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
 
-ऐसा करने के लिए, 'नियंत्रण' (Control) खंड से एक `while` (जबकि) लूप जोड़ें। `while` (जबकि) लूप को `draw` (ड्रॉ) ब्लॉक के ठीक बाद जोड़ा जाना चाहिए।
+To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
 
-![स्क्रीनशॉट](images/reaction-while.png)
+![screenshot](images/reaction-while.png)
 
-+ अपने `while` (जबकि) ब्लॉक में 'Logic' ('तर्क') से एक `and` (और) ब्लॉक को ड्रैग करें:
++ Drag an `and` block from 'Logic' to your `while` block:
 
-![स्क्रीनशॉट](images/reaction-and.png)
+![screenshot](images/reaction-and.png)
 
-+ 'Logic' ('तर्क') से `and` (और) के बाईं तरफ `not` (नहीं) को ड्रैग करें:
++ Drag a `not` from 'Logic' into the left hand side of the `and`:
 
-![स्क्रीनशॉट](images/reaction-not.png)
+![screenshot](images/reaction-not.png)
 
-+ `button A is pressed` (बटन A दबा हुआ है) ब्लॉक को 'Input' (इनपुट) से `not` (नहीं) के बाद ड्रैग करें:
++ Drag an `button A is pressed` block from 'Input' to after the `not`:
 
-![स्क्रीनशॉट](images/reaction-button-a.png)
+![screenshot](images/reaction-button-a.png)
 
-+ `not button B is pressed` (बटन B नहीं दबाया गया है) को अपने while लूप के `दाईं` तरफ जोड़ने के लिए ऊपर के 2 चरण दोहराएँ।
++ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
 
-![स्क्रीनशॉट](images/reaction-button-b.png)
+![screenshot](images/reaction-button-b.png)
 
-+ फिर आप एक बहुत ही कम (20ms) की देरी जोड़ सकते हैं, ताकि जब तक कोई बटन नहीं दबाया जाता है आपका `while` (जबकि) लूप प्रतीक्षा करता है।
++ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
 
-![स्क्रीनशॉट](images/reaction-delay.png)
+![screenshot](images/reaction-delay.png)
 
-+ अपने प्रोजेक्ट का परीक्षण करें। आपके गेम को अब एक छवि प्रदर्शित करनी चाहिए और फिर बटन A **और** B को **नहीं**नहीं> दबाए जाने तक प्रतीक्षा करनी चाहिए।
++ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
