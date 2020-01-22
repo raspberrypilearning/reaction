@@ -12,4 +12,4 @@ Let's find out who pressed their button first.
 
 + You should also do the same for button B.
 
-![schermata](images/reaction-if-b-show.png)
+![screenshot](images/reaction-if-b-show.png)
