@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own image
+## التحدي: اختر صورتك الخاصة
 
-Can you change the image that's displayed?
+هل يمكنك تغيير الصورة المعروضة؟
 
 \--- /challenge \---
