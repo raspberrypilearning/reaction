@@ -1,33 +1,33 @@
-## Waiting for a winner
+## Warte auf einen Gewinner
 
-Let's add code to wait until a button is pressed.
+Fügen wir einen Code hinzu, um zu warten, bis ein Knopf gedrückt wird.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ Nach dem Anzeigen eines Bildes musst du warten, bis jemand seinen Knopf drückt.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+Eine andere Möglichkeit, dies zu sagen, besteht darin, dass du so lange warten musst, bis Knopf A **und** Knopf B **nicht** gedrückt wurden.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+Füge dazu im Abschnitt 'Control' eine `während` Schleife hinzu. Die `while` Schleife sollte direkt nach dem `Draw` Block hinzugefügt werden.
 
 ![screenshot](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ Ziehe einen `und` Block aus 'Logik' in deinen `während` Block:
 
-![screenshot](images/reaction-and.png)
+![Screenshot](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ Ziehe ein `nicht` aus 'Logik' auf die linke Seite von `und`:
 
-![screenshot](images/reaction-not.png)
+![Screenshot](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ Ziehe den Block `wenn Knopf A ist gedrückt` von 'Eingabe' unter `nein`: 
 
-![screenshot](images/reaction-button-a.png)
+![Screenshot](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ Wiederhole die beiden obigen Schritte, um `nicht Knopf B ist gedrückt` in die `rechte` Seite deiner während-Schleife hinzuzufügen.
 
-![screenshot](images/reaction-button-b.png)
+![Screenshot](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ Du kannst dann eine sehr kurze Wartezeit (20 ms) hinzufügen, sodass deine `während` Schleife wartet, solange kein Knopf gedrückt wurde.
 
-![screenshot](images/reaction-delay.png)
+![Screenshot](images/reaction-delay.png)
 
-+ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Teste dein Projekt. Dein Spiel sollte jetzt ein Bild anzeigen und dann warten solange die Knöpfe A **und** B **nicht** gedrückt wurden.
