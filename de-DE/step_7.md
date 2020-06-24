@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Keep score
+## Herausforderung: Punktzahl halten
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+Kannst du zwei Variablen mit den Namen `Spieler A` und `Spieler B` verwenden, um die Punktzahl jedes Spielers zu verfolgen?
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+Du musst beide Punkte zu Beginn des Spiels auf 0 setzen, indem du den Code in den Block "Beim Start" einfügst.
 
 ![screenshot](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+Und füge 1 zu dem Spieler hinzu, der jede Runde gewinnt.
 
-You'll also need to think of a way to display the score.
+Du solltest dir auch überlegen, wie du die Punktezahl anzeigen möchtest.
 
 \--- /challenge \---
