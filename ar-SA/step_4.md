@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own delay
+## التحدي: اختر وقت التأخير الخاص بك
 
-Change the numbers in your `random` block. You can speed up your game to make it harder, or slow it down to add suspense!
+غير الأرقام في الكتلة `التقاط تلقائي` الخاصة بك. يمكنك تسريع لعبتك لجعلها أصعب ، أو إبطائها لإضافة التشويق!
 
 \--- /challenge \---
