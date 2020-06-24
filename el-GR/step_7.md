@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Keep score
+## Πρόκληση: Κράτησε τη βαθμολογία
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+Μπορείς να χρησιμοποιήσεις δύο μεταβλητές με όνομα `παίκτηςΑ` και `παίκτηςΒ` για να κρατήσεις τη βαθμολογία του κάθε παίκτη;
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+Θα χρειαστεί να ορίσεις και τις δυο βαθμολογίες στο 0 στην αρχή του παιχνιδιού τοποθετώντας τον κώδικα μέσα στο μπλοκ 'στην έναρξη'.
 
-![screenshot](images/reaction-on-start.png)
+![στιγμιότυπο οθόνης](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+Και πρόσθεσε 1 σε οποιονδήποτε παίκτη κερδίζει κάθε γύρο.
 
-You'll also need to think of a way to display the score.
+Θα χρειαστεί επίσης να σκεφτείς έναν τρόπο εμφάνισης της βαθμολογίας.
 
 \--- /challenge \---
