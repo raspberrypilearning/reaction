@@ -1,15 +1,15 @@
-## Who is the fastest?
+## من هو الأسرع؟
 
-Let's find out who pressed their button first.
+دعونا نعرف من قام بالضغط على الزر أولاً.
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `button A is pressed`.
++ إذا تم الضغط على الزر A، نريد أن نشير إلى اللاعب A. للقيام بذلك، أضف كتلة `اذا` بعد حلقة `أثناء` ، واستبدل `اختبار` بـ `الزر A مضغوط `.
 
-![screenshot](images/reaction-if-a.png)
+![لقطة شاشة](images/reaction-if-a.png)
 
-+ You can then use the `show leds` block to show an arrow pointing to player A.
++ يمكنك بعد ذلك استخدام الكتلة ` إظهار المصابيح ` لعرض سهم يشير إلى اللاعب A.
 
-![screenshot](images/reaction-if-a-show.png)
+![لقطة شاشة](images/reaction-if-a-show.png)
 
-+ You should also do the same for button B.
++ يجب عليك أيضًا أن تفعل نفس الشيء بالنسبة للزر B.
 
-![screenshot](images/reaction-if-b-show.png)
+![لقطة الشاشة](images/reaction-if-b-show.png)
