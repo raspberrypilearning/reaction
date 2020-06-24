@@ -1,33 +1,33 @@
-## Waiting for a winner
+## Αναμονή για νικητή
 
-Let's add code to wait until a button is pressed.
+Ας προσθέσουμε κώδικα για να περιμένουμε μέχρι να πατηθεί ένα κουμπί.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ Μετά την προβολή μιας εικόνας, θα πρέπει να περιμένετε μέχρι κάποιος να πιέσει το κουμπί.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+Ένας άλλος τρόπος διατύπωσης είναι ότι θα χρειαστεί να περιμένετε όσο το κουμπί Α **και** το κουμπί Β **δεν** να (έχει) πατηθεί.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+Για να το κάνεις αυτό, πρόσθεσε έναν βρόγχο `ενώ` από την ενότητα «Έλεγχος». Ο βρόγχος `ενώ` πρέπει να προστεθεί αμέσως μετά το μπλοκ `draw`.
 
-![screenshot](images/reaction-while.png)
+![στιγμιότυπο οθόνης](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ Σύρε ένα μπλοκ `και` από τη «Λογική» στο μπλοκ `ενώ`:
 
-![screenshot](images/reaction-and.png)
+![στιγμιότυπο οθόνης](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ Σύρε ένα `όχι` από τη «Λογική» στην αριστερή πλευρά του `και`:
 
-![screenshot](images/reaction-not.png)
+![στιγμιότυπο οθόνης](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ Σύρε το μπλοκ `πλήκτρο Α έχει πιεστεί` από την «Εισαγωγή» σε μετά από το `όχι`:
 
-![screenshot](images/reaction-button-a.png)
+![στιγμιότυπο οθόνης](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ Επανέλαβε τα 2 παραπάνω βήματα για να προσθέσεις το `πλήκτρο Β δεν πατήθηκε` στην `δεξιά` πλευρά του βρόγχου "ενώ".
 
-![screenshot](images/reaction-button-b.png)
+![στιγμιότυπο οθόνης](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ Στη συνέχεια, μπορείς να προσθέσεις μια πολύ σύντομη (20ms) καθυστέρηση, έτσι ώστε ο βρόγχος `ενώ` να περιμένει όσο δεν έχει πατηθεί κάποιο κουμπί.
 
-![screenshot](images/reaction-delay.png)
+![στιγμιότυπο οθόνης](images/reaction-delay.png)
 
-+ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Δοκίμασε το έργο σου. Το παιχνίδι σου θα πρέπει τώρα να εμφανίσει μια εικόνα και στη συνέχεια να περιμένει όσο κουμπιά A **και** B **δεν** έχουν πατηθεί.
