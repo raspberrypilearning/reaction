@@ -1,33 +1,33 @@
-## Waiting for a winner
+## في انتظار الفائز
 
-Let's add code to wait until a button is pressed.
+دعونا نضيف تعليمة برمجية للانتظار حتى يتم الضغط على الزر.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ بعد عرض الصورة ، ستحتاج إلى الانتظار حتى يضغط شخص ما على الزر الخاص به.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+طريقة أخرى لقول هذا هو أنك ستحتاج إلى الانتظار طالما **لم يتم** الضغط على الزر A **و ** B.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+للقيام بذلك، أضف حلقة `أثناء` من قسم "حلقات". يجب إضافة حلقة `أثناء` مباشرة بعد الكتلة `رسم `.
 
-![screenshot](images/reaction-while.png)
+![لقطة الشاشة](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ اسحب كتلة `و` من 'منطق' إلى كتلة `ابدأ` الخاصة بك:
 
-![screenshot](images/reaction-and.png)
+![لقطة الشاشة](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ اسحب `ليس` من "منطق" إلى الجانب الأيسر من `و`:
 
-![screenshot](images/reaction-not.png)
+![لقطة الشاشة](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ اسحب كتلة `الزر A مضغوط` من 'الإدخال' وضعها بعد `ليس`:
 
-![screenshot](images/reaction-button-a.png)
+![لقطة الشاشة](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ كرر الخطوتين أعلاه لإضافة `ليس الزر B مضغوط` إلى الجانب `الايمن` من حلقة التكرار الخاصة بك.
 
-![screenshot](images/reaction-button-b.png)
+![لقطة الشاشة](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ يمكنك بعد ذلك إضافة مهلة قصيرة جدا (20 ملي ثانية)، بحيث تنتظر حلقة `ابدأ` طالما لم يتم الضغط على الزر.
 
-![screenshot](images/reaction-delay.png)
+![لقطة الشاشة](images/reaction-delay.png)
 
-+ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ اختبر مشروعك. يجب على لعبتك الآن عرض صورة ثم الانتظار طالما **لم يتم** الضغط على الأزرار A **و** B.
