@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Keep score
+## التحدي: الاحتفاظ بالنتيجة
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+هل يمكنك استخدام متغيرين يسميان `اللاعب أ` و `اللاعب ب` لتتبع نقاط كل لاعب؟
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+ستحتاج إلى تعيين كلا النتيجتين إلى 0 في بداية اللعبة عن طريق وضع التعليمات البرمجية داخل الكتلة البرمجية "عند بدء".
 
-![screenshot](images/reaction-on-start.png)
+![لقطة الشاشة](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+وأضف 1 إلى أي لاعب يفوز في كل جولة.
 
-You'll also need to think of a way to display the score.
+ستحتاج أيضًا إلى التفكير في طريقة لعرض النتيجة.
 
 \--- /challenge \---
