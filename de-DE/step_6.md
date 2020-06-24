@@ -1,15 +1,15 @@
-## Who is the fastest?
+## Wer ist der Schnellste?
 
-Let's find out who pressed their button first.
+Lass uns herausfinden, wer zuerst den Knopf gedrückt hat.
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `button A is pressed`.
++ Wenn Knopf A gedrückt wurde, möchten wir auf Spieler A zeigen. Füge dazu einen `wenn` Block nach deiner `während` Schleife hinzu und ersetze `Test` mit `Knopf A ist gedrückt`.
 
-![screenshot](images/reaction-if-a.png)
+![Screenshot](images/reaction-if-a.png)
 
-+ You can then use the `show leds` block to show an arrow pointing to player A.
++ Du kannst dann den Block `zeige LEDs` nutzen, um einen Pfeil anzuzeigen, der auf Spieler A zeigt.
 
 ![screenshot](images/reaction-if-a-show.png)
 
-+ You should also do the same for button B.
++ Du solltest das Gleiche auch für Knopf B tun.
 
 ![screenshot](images/reaction-if-b-show.png)
