@@ -1,31 +1,31 @@
-## Wait for it!
+## انتظرها!
 
-Let's start by displaying an image after a random amount of time.
+دعونا نبدأ بعرض صورة بعد فترة زمنية عشوائية.
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
++ اذهب إلى <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> لبدء مشروع جديد في محرر MakeCode (PXT). سمي مشروعك الجديد 'ردة فعل'.
 
-+ Before displaying an image, the game should wait for a random amount of time.
++ قبل عرض الصورة ، يجب أن تنتظر اللعبة لفترة عشوائية من الوقت.
 
-Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
+اسحب كتلة `إيقاف مؤقت` إلى كتلة `للأبد` وقم بتغيير وقت الإيقاف المؤقت إلى 1000 مل:
 
-![screenshot](images/reaction-pause.png)
+![لقطة شاشة](images/reaction-pause.png)
 
-+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
++ أضف كتلة أخرى `إيقاف مؤقت` ثم قم بسحب كتلة `اختر عشوائي` إلى كتلة `إيقاف مؤقت` وتعيين قيمتها إلى 4000:
 
-![screenshot](images/reaction-pause-random.png)
+![لقطة الشاشة](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
+تذكر أن 1000mm هي 1 ثانية، لذلك سيكون هناك توقف لمدة ثانية واحدة على الأقل بحد أقصى 5 ثوان (1000 + 4000 م).
 
-You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
+يمكنك تغيير الرقمين "1000" و "4000" لتغيير الحد الأدنى والحد الأقصى للإيقاف المؤقت إذا أردت.
 
-+ After waiting, your game should show an image so that players know when to press their button.
++ بعد الانتظار، يجب أن تظهر لعبتك صورة حتى يعرف اللاعبين متى يضغطون على ازرارهم.
 
-![screenshot](images/reaction-image.png)
+![لقطة الشاشة](images/reaction-image.png)
 
-+ Click 'run' to test your project. You should see your image appear after a random delay.
++ انقر فوق 'تشغيل' لاختبار مشروعك. يجب أن ترى صورتك تظهر بعد تأخير عشوائي.
 
-+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
++ أضف تعليمة برمجية في نهاية حلقة `إلى الأبد` لعرض صورتك لمدة ثانية واحدة ثم مسح العرض.
 
-![screenshot](images/reaction-clear.png)
+![لقطة الشاشة](images/reaction-clear.png)
 
-+ Test your project. You should see your image appear randomly and then disappear.
++ اختبر مشروعك. يجب أن ترى صورتك تظهر بشكل عشوائي ثم تختفي.
