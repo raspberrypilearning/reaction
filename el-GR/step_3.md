@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own image
+## Πρόκληση: Διάλεξε μια δική σου εικόνα
 
-Can you change the image that's displayed?
+Μπορείς να αλλάξεις την εικόνα που εμφανίζεται;
 
 \--- /challenge \---
