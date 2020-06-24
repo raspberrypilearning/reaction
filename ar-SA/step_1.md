@@ -1,66 +1,66 @@
-## Introduction
+## المقدمة
 
-You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
+ستنشئ لعبة من لاعبين لترى من لديه أسرع ردود الفعل. سوف تعمل اللعبة بعرض صورة بعد فترة زمنية عشوائية - من يضغط على الزر أولا هو الفائز.
 
-**Instructions**: If you're reading this online, wait for an image to display on the micro:bit below and then press **A** or **B** first to see who is the fastest.
+**تعليمات **: إذا كنت تقرأ هذا على الإنترنت، انتظر لعرض صورة على المايكروبيت (micro:bit) أدناه ثم اضغط على **A** أو **B** لمعرفة من هو الأسرع.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_RAu6KxHvEXMp" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Additional information for club leaders
+### معلومات إضافية لقادة النادي
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/en/projects/reaction/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: ملاحظات قادة النادي
 
-## Introduction:
+## مقدمة:
 
-In this project, children will make a reaction game. An image will be displayed on the micro:bit after a random amount of time - the first person to press their button is the winner.
+في هذا المشروع، الأطفال سيصنعون لعبة رد الفعل. سيتم عرض صورة على المايكروبيت (micro:bit) بعد وقت عشوائي - أول شخص يضغط على الزر هو الفائز.
 
-Children will make use of all of the coding concepts used in previous projects, as well as using Boolean operators to wait until a button has been pressed.
+سيستفيد الأطفال من جميع مفاهيم الترميز المستخدمة في المشاريع السابقة ، بالإضافة إلى استخدام عوامل التشغيل المنطقية للانتظار حتى يتم الضغط على زر.
 
-## Resources
+## الموارد
 
-For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
+لهذا المشروع، يجب استخدام [MakeCode (PXT)](http://jumpto.cc/pxt-new) محرر المايكروبيت (microbit).
 
-You can find a completed version of this project at [makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+يمكنك العثور على نسخة مكتملة من هذا المشروع على [makecode.microbit.org/#pub:50800-81674-84873-32898](https://makecode.microbit.org/#pub:50800-81674-84873-32898)، وعلى النسخة المجمَّعة. يمكن تحميل الملف السابق بالنقر على رابط "تحميل مواد المشروع" لهذا المشروع، الذي يحتوي على:
 
 + microbit-Reaction.hex
 
-There is also a version of the project with the "Keep score" challenge completed. This can be found at [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+وهناك أيضا نسخة من المشروع مع اكتمال تحدي "الحفاظ على النقاط". يمكنك العثور على نسخة مكتملة من هذا المشروع على [makecode.microbit.org/#pub:23812-11544-45113-45147](https://makecode.microbit.org/#pub:23812-11544-45113-45147)، وعلى النسخة المجمَّعة. يمكن تحميل الملف السابق بالنقر على رابط "تحميل مواد المشروع" لهذا المشروع، الذي يحتوي على:
 
 + microbit-Reaction-Score.hex
 
-## Learning Objectives
+## أهداف التعلم
 
-+ Boolean operators: 
-    + AND;
-    + NOT.
++ العمليات المنطقية: 
+    + و;
+    + ليس.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [استخدم أدوات البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## التحديات
 
-+ "Choose your own image" - changing the image displayed on the micro:bit.
-+ "Choose your own delay" - changing the parameters to the `random` function.
-+ "Keep score" - use variables to keep track of player scores.
++ "اختر صورتك الخاصة" - تغيير الصورة المعروضة على المايكروبيت (micro:bit).
++ "اختر وقت التأخير الخاص" - تغيير العوامل إلى دالة `عشوائية`.
++ "حافظ على النتيجة" - استخدم المتغيرات لتتبع نقاط اللاعب.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: مواد المشروع
 
-## Club leader resources
+## موارد قادة النادي
 
-+ [online completed project](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
-+ [online completed project, including 'Keep score' challenge](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
-+ [.hex project file to transfer onto your micro:bit](resources/microbit-Reaction.hex)
-+ [.hex project file including 'Keep Score' challenge](resources/microbit-Reaction-Score.hex)
++ [مشروع مكتمل عبر الإنترنت](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
++ [المشروع المكتمل عبر الانترنت، بما في ذلك تحدي "الاحتفاظ بالنتيجة"](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
++ [ملف مشروع.hex للتحويل إلى المايكروبيت (micro:bit) الخاص بك](resources/microbit-Reaction.hex)
++ [ملف مشروع.hex بما في ذلك تحدي "الحفاظ على النقاط"](resources/microbit-Reaction-Score.hex)
 
 \--- /collapse \---
