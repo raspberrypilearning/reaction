@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Reaction
-description: Make a game to see who has the fastest reactions.
+title: Reaktion
+description: Mach ein Spiel, um zu sehen, wer am schnellsten reagiert.
 original_url: https://codeclubprojects.org/en-GB/microbit/reaction
 interests: games
 technologies: microbit
@@ -18,16 +18,16 @@ version: 3.0.1
 last_tested: 2019-03-06
 steps:
   - 
-    title: Introduction
+    title: Einleitung
   - 
-    title: Wait for it!
+    title: Warte darauf!
   - 
-    title: 'Challenge: Choose your own image'
+    title: 'Herausforderung: Wähle dein eigenes Bild'
   - 
-    title: 'Challenge: Choose your own delay'
+    title: 'Herausforderung: Wähle deine eigene Wartezeit'
   - 
-    title: Waiting for a winner
+    title: Warte auf einen Gewinner
   - 
-    title: Who is the fastest?
+    title: Wer ist der Schnellste?
   - 
-    title: 'Challenge: Keep score'
+    title: 'Herausforderung: halte die Punktzahl'
