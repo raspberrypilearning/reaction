@@ -1,15 +1,15 @@
-## Who is the fastest?
+## Ποιος είναι ο ταχύτερος;
 
-Let's find out who pressed their button first.
+Ας μάθουμε ποιος πίεσε πρώτος το κουμπί του.
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `button A is pressed`.
++ Εάν πατήθηκε το κουμπί Α, θέλουμε να δείξουμε στον παίκτη Α. Για να το κάνεις αυτό, πρόσθεσε ένα μπλοκ `εάν` μετά το βρόγχο `ενώ`, και αντικατέστησε το `δοκιμή` με `το πλήκτρο A πατήθηκε`.
 
-![screenshot](images/reaction-if-a.png)
+![στιγμιότυπο οθόνης](images/reaction-if-a.png)
 
-+ You can then use the `show leds` block to show an arrow pointing to player A.
++ Στη συνέχεια, μπορείς να χρησιμοποιήσεις το μπλοκ `εμφάνιση λυχνιών` για να εμφανίσεις ένα βέλος που δείχνει στον παίκτη Α.
 
-![screenshot](images/reaction-if-a-show.png)
+![στιγμιότυπο οθόνης](images/reaction-if-a-show.png)
 
-+ You should also do the same for button B.
++ Θα πρέπει να κάνεις επίσης το ίδιο για το κουμπί Β.
 
-![screenshot](images/reaction-if-b-show.png)
+![στιγμιότυπο οθόνης](images/reaction-if-b-show.png)
