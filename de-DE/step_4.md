@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own delay
+## Herausforderung: Wähle deine eigene Wartezeit
 
-Change the numbers in your `random` block. You can speed up your game to make it harder, or slow it down to add suspense!
+Ändere die Zahlen in deinem `zufälligen` Block. Du kannst dein Spiel beschleunigen, um es schwieriger zu machen, oder es verlangsamen, um Spannung zu erzeugen!
 
 \--- /challenge \---
