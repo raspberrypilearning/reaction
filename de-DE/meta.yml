@@ -1,0 +1,26 @@
+---
+hero_image: images/reaction.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Reaktion
+description: Mach ein Spiel, um zu sehen, wer am schnellsten reagiert.
+original_url: https://codeclubprojects.org/en-GB/microbit/reaction
+interests: games
+technologies: microbit
+site_areas: projects
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-03-06
+steps:
+  - title: Einleitung
+  - title: Warte darauf!
+  - title: 'Herausforderung: Wähle dein eigenes Bild'
+  - title: 'Herausforderung: Wähle deine eigene Wartezeit'
+  - title: Warte auf einen Gewinner
+  - title: Wer ist der Schnellste?
+  - title: 'Herausforderung: Punktzahl halten'
