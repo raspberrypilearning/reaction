@@ -16,7 +16,7 @@ Ziehe einen `Pause` Block in den `dauerhaft` Block und ändere die Pausenzeit au
 
 Denk daran, dass 1000 ms 1 Sekunde sind, sodass eine Pause von mindestens 1 Sekunde bis maximal 5 Sekunden (1000 + 4000 ms) entsteht.
 
-Wenn du willst, kannst die Nummern '1000' und '4000' ändern, um die minimale und maximale Pause zu ändern.
+Wenn du willst, kannst du die Zahlen '1000' und '4000' ändern, um die minimale und maximale Pause zu ändern.
 
 + Nach dem Warten sollte in deinem Spiel ein Bild angezeigt werden, damit die Spieler wissen, wann sie ihren Knopf drücken müssen.
 
