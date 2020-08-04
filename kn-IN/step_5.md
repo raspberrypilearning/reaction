@@ -1,33 +1,33 @@
-## Waiting for a winner
+## ವಿಜೇತರಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ
 
-Let's add code to wait until a button is pressed.
+ಬಟನ್'ನನ್ನು ಒತ್ತುವವರೆಗೂ ಕಾಯಲು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸೋಣ.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸಿದ ನಂತರ, ಯಾರಾದರೂ ತಮ್ಮ ಬಟನ್'ನನ್ನು ಒತ್ತುವವರೆಗೂ ನೀವು ಕಾಯಬೇಕಾಗುತ್ತದೆ.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+ಇದನ್ನು ಹೇಳುವ ಇನ್ನೊಂದು ವಿಧಾನವೆಂದರೆ ನೀವು ಬಟನ್ A ಅಥವಾ ಬಟನ್ B ಒತ್ತುವವರೆಗೆ ಕಾಯಬೇಕಾಗುತ್ತದೆ (**and**, **not**).
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+ಇದನ್ನು ಮಾಡಲು, 'Control' ವಿಭಾಗದಿಂದ `while` ಅನ್ನು ಸೇರಿಸಿ. `draw` ಆದ ನಂತರ `while` ಅನ್ನು ಸೇರಿಸಬೇಕು.
 
 ![screenshot](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ 'Logic' ಇಂದ ಒಂದು `and` ಬ್ಲಾಕ್ ಅನ್ನು ನಿಮ್ಮ `while` ಬ್ಲಾಕ್ ಒಳಗೆ ಇಳಿಸಿರಿ:
 
 ![screenshot](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ 'Logic' ಇಂದ ಒಂದು `not` ಅನ್ನು `and` ನ ಎಡಗಡೆ ಇಳಿಸಿರಿ:
 
 ![screenshot](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ 'Input' ಇಂದ ಒಂದು `button A is pressed` ಅನ್ನು `not` ನ ನಂತರ ಇಳಿಸಿರಿ:
 
 ![screenshot](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ `not button B is pressed` ಅನ್ನು while ನ `ಬಲಕ್ಕೆ` ಕೂಡಿಸಲು ಮೇಲಿನ 2 ಹಂತಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿ.
 
 ![screenshot](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ ನಂತರ ನೀವು ಪುಟ್ಟ ವಿಳಂಬವನ್ನು (20ms) ಸೇರಿಸಬಹುದು, ಇದರಿಂದಾಗಿ ನಿಮ್ಮ `while` ಲೂಪ್ ಬಟನ್'ನನ್ನು ಒತ್ತುವವರೆಗೆ ಕಾಯುತ್ತದೆ.
 
 ![screenshot](images/reaction-delay.png)
 
-+ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟನ್ನು ಪರೀಕ್ಷಿಸಿ. ನಿಮ್ಮ ಆಟವು ಈಗ ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸಬೇಕು ಮತ್ತು ಬಟನ್ A ಅಥವಾ ಬಟನ್ B ಒತ್ತುವವರೆಗೆ ಕಾಯಬೇಬೇಕು (**and**, **not**).
