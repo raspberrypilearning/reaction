@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own image
+## ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಚಿತ್ರವನ್ನು ಆರಿಸಿ
 
-Can you change the image that's displayed?
+ಪ್ರದರ್ಶಿಸಲಾದ ಚಿತ್ರವನ್ನು ನೀವು ಬದಲಾಯಿಸಬಹುದೇ?
 
 \--- /challenge \---
