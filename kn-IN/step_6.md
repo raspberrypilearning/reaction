@@ -1,15 +1,15 @@
-## Who is the fastest?
+## ಯಾರು ಮೊದಲು ಪ್ರತಿಕ್ರಿಯಿಸಿದರು?
 
-Let's find out who pressed their button first.
+ಮೊದಲು ಅವರ ಬಟನ್ನನ್ನು ಯಾರು ಒತ್ತಿದ್ದಾರೆಂದು ನೋಡೋಣ.
 
-+ If button A was pressed, we want to point to player A. To do this, add an `if` block after your `while` loop, and replace `test` with `button A is pressed`.
++ A ಬಟನ್ನನ್ನು ಮೊದಲು ಒತ್ತಿದ್ದರೆ, ನಾವು ಪ್ಲೇಯರ್ A ಯನ್ನು ಸೂಚಿಸಬೇಕು. ಇದನ್ನು ಮಾಡಲು, `if` ಅನ್ನು `while` ನ ನಂತರ ಸೇರಿಸಿ ಮತ್ತು `test` ಅನ್ನು `button A is pressed` ನಿಂದ ಬದಲಾಯಿಸಿ.
 
 ![screenshot](images/reaction-if-a.png)
 
-+ You can then use the `show leds` block to show an arrow pointing to player A.
++ ನಂತರ ನೀವು `show leds` ಸಹಾಯದಿಂದ ಬಾಣವನ್ನು ಪ್ಲೇಯರ್ A ಕಡೆಗೆ ಸೂಚಿಸಿ.
 
 ![screenshot](images/reaction-if-a-show.png)
 
-+ You should also do the same for button B.
++ ಬಟನ್ B ಗಾಗಿ ನೀವು ಇದೇ ರೀತಿ ಮಾಡಬೇಕು.
 
 ![screenshot](images/reaction-if-b-show.png)
