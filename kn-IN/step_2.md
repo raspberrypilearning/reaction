@@ -1,31 +1,31 @@
-## Wait for it!
+## ಇದಕ್ಕಾಗಿ ಕಾಯಿರಿ!
 
-Let's start by displaying an image after a random amount of time.
+ರಾಂಡಮ್ ಸಮಯದ ನಂತರ ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸುವ ಮೂಲಕ ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸೋಣ.
 
-+ Go to <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a> to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'.
++ MakeCode (PXT) ಸಂಪಾದಕದಲ್ಲಿ ಹೊಸ ಪ್ರಾಜೆಕ್ಟನ್ನು ಪ್ರಾರಂಭಿಸಲು <a href="https://rpf.io/microbit-new" target="_blank">rpf.io/microbit-new</a>ಗೆ ಹೋಗಿ. ನಿಮ್ಮ ಹೊಸ ಪ್ರಾಜೆಕ್ಟನ್ನು 'Reaction' ಎಂದು ಕರೆಯಿರಿ.
 
-+ Before displaying an image, the game should wait for a random amount of time.
++ ಚಿತ್ರವನ್ನು ಪ್ರದರ್ಶಿಸುವ ಮೊದಲು, ಆಟವು ರಾಂಡಮ್ ಸಮಯಕ್ಕಾಗಿ ಕಾಯಬೇಕು.
 
-Drag a `pause` block into the `forever` block and change the pause time to 1000 ms:
+`pause` ಅನ್ನು `forever` ನೊಳಗೆ ಎಳೆಯಿರಿ ನಂತರ ವಿರಾಮ ಸಮಯವನ್ನು 1000 ms ‌ಗೆ ಬದಲಾಯಿಸಿ:
 
 ![screenshot](images/reaction-pause.png)
 
-+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:
++ ಮತ್ತೊಂದು `pause`ಅನ್ನು ಸೇರಿಸಿ ನಂತರ `pick random`ಅನ್ನು ಈಗ ಹಾಕಿದ `pause` ನೊಳಗೆ ಎಳೆಯಿರಿ ಮತ್ತು ಅದರ ಮೌಲ್ಯವನ್ನು 4000 ಗೆ ಹೊಂದಿಸಿ:
 
 ![screenshot](images/reaction-pause-random.png)
 
-Remember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).
+1000ms ಅಂದರೆ 1 ಸೆಕೆಂಡ್ ಎಂದು ನೆನಪಿಡಿ, ಆದ್ದರಿಂದ ಕನಿಷ್ಠ 1 ಸೆಕೆಂಡ್‌ನಿಂದ ಗರಿಷ್ಠ 5 ಸೆಕೆಂಡುಗಳವರೆಗೆ (1000 + 4000 ms) ವಿರಾಮ ಇರುತ್ತದೆ.
 
-You can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like.
+ನೀವು ಬಯಸಿದರೆ ಕನಿಷ್ಠ ಮತ್ತು ಗರಿಷ್ಠ ವಿರಾಮವನ್ನು ಬದಲಾಯಿಸಲು ನೀವು '1000' ಮತ್ತು '4000' ಸಂಖ್ಯೆಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು.
 
-+ After waiting, your game should show an image so that players know when to press their button.
++ ವಿರಾಮದ ನಂತರ, ನಿಮ್ಮ ಆಟವು ಒಂದು ಚಿತ್ರವನ್ನು ತೋರಿಸಬೇಕು ಇದರಿಂದ ಆಟಗಾರರು ತಮ್ಮ ಬಟನ್ ನನ್ನು ಯಾವಾಗ ಒತ್ತಬೇಕೆಂದು ತಿಳಿಯುತ್ತದೆ.
 
 ![screenshot](images/reaction-image.png)
 
-+ Click 'run' to test your project. You should see your image appear after a random delay.
++ ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟನ್ನು ಪರೀಕ್ಷಿಸಲು 'run' ಕ್ಲಿಕ್ ಮಾಡಿ. ರಾಂಡಮ್ ವಿಳಂಬದ ನಂತರ ನಿಮ್ಮ ಚಿತ್ರ ಕಾಣಿಸಿಕೊಳ್ಳುವುದನ್ನು ನೀವು ವೀಕ್ಷಿಸಬಹುದು.
 
-+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.
++ `forever`ನ ಕೊನೆಯಲ್ಲಿ ಕೋಡ್ ಸೇರಿಸಿ ನಿಮ್ಮ ಚಿತ್ರವನ್ನು 1 ಸೆಕೆಂಡಿಗೆ ಪ್ರದರ್ಶಿಸಿ ನಂತರ ಪ್ರದರ್ಶನವನ್ನು ತೆರವುಗೊಳಿಸಿ.
 
 ![screenshot](images/reaction-clear.png)
 
-+ Test your project. You should see your image appear randomly and then disappear.
++ ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟನ್ನು ಪರೀಕ್ಷಿಸಿ. ನೀವು ನಿಮ್ಮ ಚಿತ್ರವನ್ನು ರಾಂಡಮ್ ಆಗಿ ಗೋಚರಿಸಿ ನಂತರ ಕಣ್ಮರೆಯಾಗುವುದನ್ನು ವೀಕ್ಷಿಸಬಹುದು.
