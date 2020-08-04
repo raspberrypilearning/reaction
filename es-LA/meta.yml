@@ -1,0 +1,26 @@
+---
+hero_image: images/reaction.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Reacción
+description: Crea un juego para ver quién tiene las reacciones más rápidas.
+original_url: https://codeclubprojects.org/en-GB/microbit/reaction
+interests: games
+technologies: microbit
+site_areas: projects
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-03-06
+steps:
+  - title: Introducción
+  - title: '¡Espera!'
+  - title: 'Desafío: Escoge tu propia imagen'
+  - title: 'Desafío: Escoge tu propio tiempo de espera'
+  - title: Espera por un ganador
+  - title: '¿Quién es el más rápido?'
+  - title: 'Desafío: Guarda el puntaje'
