@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Choose your own delay
+## ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ವಿಳಂಬವನ್ನು ಆರಿಸಿ
 
-Change the numbers in your `random` block. You can speed up your game to make it harder, or slow it down to add suspense!
+`random` ಒಳಗಿನ ಸಂಖ್ಯೆಗಳನ್ನು ಬದಲಾಯಿಸಿ. ನಿಮ್ಮ ಆಟವನ್ನು ಕಠಿಣಗೊಳಿಸಲು ನೀವು ಅದನ್ನು ವೇಗಗೊಳಿಸಬಹುದು, ಅಥವಾ ನಿಧಾನಗೊಳಿಸಬಹುದು!
 
 \--- /challenge \---
