@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Keep score
+## ಸವಾಲು: ಅಂಕ ದಾಖಲಿಸು
 
-Can you use two variables called `playerA` and `playerB` to keep track of each player's score?
+ಪ್ರತಿ ಆಟಗಾರನ ಅಂಕವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು `playerA` and `playerB` ಎಂಬ ಎರಡು ಅಸ್ಥಿರ (variables) ಗಳನ್ನು ನೀವು ಬಳಸಬಹುದೇ?
 
-You'll need to set both scores to 0 at the start of the game by placing code inside the 'on start' block.
+'on start' ಬ್ಲಾಕ್ ಒಳಗೆ ಕೋಡ್ ಅನ್ನು ಇರಿಸುವ ಮೂಲಕ ನೀವು ಆಟದ ಪ್ರಾರಂಭದಲ್ಲಿ ಎರಡೂ ಅಂಕಗಳನ್ನು 0 ಗೆ ಹೊಂದಿಸಬೇಕಾಗುತ್ತದೆ.
 
 ![screenshot](images/reaction-on-start.png)
 
-And add 1 to whichever player wins each round.
+ಮತ್ತು ಪ್ರತಿ ಸುತ್ತಿನಲ್ಲಿ ಗೆದ್ದ ಆಟಗಾನಿಗೆ 1 ಅನ್ನು ಸೇರಿಸಿ.
 
-You'll also need to think of a way to display the score.
+ಸ್ಕೋರ್ ಪ್ರದರ್ಶಿಸುವ ಮಾರ್ಗವನ್ನು ಸಹ ನೀವು ಯೋಚಿಸಬೇಕಾಗಿದೆ.
 
 \--- /challenge \---
