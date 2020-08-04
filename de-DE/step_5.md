@@ -6,7 +6,7 @@ Fügen wir einen Code hinzu, um zu warten, bis ein Knopf gedrückt wird.
 
 Eine andere Möglichkeit, dies zu sagen, besteht darin, dass du so lange warten musst, bis Knopf A **und** Knopf B **nicht** gedrückt wurden.
 
-Füge dazu im Abschnitt 'Control' eine `während` Schleife hinzu. Die `while` Schleife sollte direkt nach dem `Draw` Block hinzugefügt werden.
+To do this, add a `while` loop from the 'Control' section. Die `während` Schleife sollte direkt nach dem `Draw` Block hinzugefügt werden.
 
 ![screenshot](images/reaction-while.png)
 
@@ -30,4 +30,4 @@ Füge dazu im Abschnitt 'Control' eine `während` Schleife hinzu. Die `while` Sc
 
 ![Screenshot](images/reaction-delay.png)
 
-+ Teste dein Projekt. Dein Spiel sollte jetzt ein Bild anzeigen und dann warten solange die Knöpfe A **und** B **nicht** gedrückt wurden.
++ Teste dein Projekt. Dein Spiel sollte jetzt ein Bild anzeigen und dann warten, solange die Knöpfe A **und** B **nicht** gedrückt wurden.
