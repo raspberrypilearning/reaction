@@ -10,7 +10,7 @@
 
 ### ಕ್ಲಬ್ ನಾಯಕರಿಗೆ ಹೆಚ್ಚು ಮಾಹಿತಿ
 
-ನೀವು ಈ ಪ್ರಾಜೆಕ್ಟನ್ನು ಮುದ್ರಿಸಲು ಬಯಸಿದಲ್ಲಿ, ದಯವಿಟ್ಟು [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print) ಅನ್ನು ಬಳಸಿ.
+ನೀವು ಈ ಪ್ರಾಜೆಕ್ಟನ್ನು ಮುದ್ರಿಸಲು ಬಯಸಿದಲ್ಲಿ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ](https://projects.raspberrypi.org/en/projects/reaction/print) ಅನ್ನು ಬಳಸಿ.
 
 ## \--- collapse \---
 
