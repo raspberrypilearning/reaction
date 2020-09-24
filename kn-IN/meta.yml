@@ -1,0 +1,26 @@
+---
+hero_image: images/reaction.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: ಪ್ರತಿಕ್ರಿಯೆ
+description: ಯಾರು ವೇಗವಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾರೆಂದು ನೋಡಲು ಆಟವನ್ನು ಆಯೋಜಿಸಿ.
+original_url: https://codeclubprojects.org/en-GB/microbit/reaction
+interests: games
+technologies: microbit
+site_areas: projects
+hardware: microbit
+software: ''
+version: 3.0.1
+last_tested: 2019-03-06
+steps:
+  - title: ಪರಿಚಯ
+  - title: ಇದಕ್ಕಾಗಿ ಕಾಯಿರಿ!
+  - title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ಚಿತ್ರವನ್ನು ಆರಿಸಿ'
+  - title: 'ಸವಾಲು: ನಿಮ್ಮ ಸ್ವಂತ ವಿಳಂಬವನ್ನು ಆರಿಸಿ'
+  - title: ವಿಜೇತರಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ
+  - title: ಯಾರು ಮೊದಲು ಪ್ರತಿಕ್ರಿಯಿಸಿದರು?
+  - title: 'ಸವಾಲು: ಅಂಕ ದಾಖಲಿಸು'
