@@ -1,4 +1,4 @@
-## Who is the faster?
+## Qui est le plus rapide&nbsp;?
 
 Essayons de voir qui a appuyé son bouton en premier.
 
