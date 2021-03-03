@@ -1,4 +1,4 @@
-## Pwy yw’r cyflymaf?
+## Who is the faster?
 
 Gadewch i ni weld pwy wasgodd ei fotwm gyntaf.
 
