@@ -1,66 +1,66 @@
 ## Introduction
 
-You are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.
+Tu vas créer un jeu pour 2 joueurs pour voir qui a les réflexes les plus rapides. Le jeu consistera à afficher une image après un délai aléatoire : celui qui appuie sur son bouton le premier gagne.
 
-**Instructions**: If you're reading this online, wait for an image to display on the micro:bit below and then press **A** or **B** first to see who is the fastest.
+**Instructions** : Si tu lis ceci en ligne, attends qu'une image apparaisse sur la micro:bit ci-dessous et appuie sur **A** ou **B** pour voir qui est le plus rapide.
 
 <div class="trinket" style="width:400px;margin: 0 auto;">
 <div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_RAu6KxHvEXMp" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 </div>
 
-### Additional information for club leaders
+### Informations complémentaires pour les responsables de club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print).
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/reaction/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Notes pour le responsable de club
 
-## Introduction:
+## Introduction :
 
-In this project, children will make a reaction game. An image will be displayed on the micro:bit after a random amount of time - the first person to press their button is the winner.
+Dans ce projet, les enfants vont créer un jeu de réflexes. Une image sera affichée sur la micro:bit après un délai d'une durée aléatoire : la première personne qui appuie sur son bouton gagne.
 
-Children will make use of all of the coding concepts used in previous projects, as well as using Boolean operators to wait until a button has been pressed.
+Les enfants utiliseront tous les concepts de codage utilisés dans les projets précédents, ainsi que l'utilisation d'opérateurs booléens pour attendre qu'un bouton ait été pressé.
 
-## Resources
+## Ressources
 
-For this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.
+Pour ce projet, l'éditeur microbit [MakeCode (PXT)](http://jumpto.cc/pxt-new) devrait être utilisé.
 
-You can find a completed version of this project at [makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Vous pouvez trouver une version terminée de ce projet sur [makecode.microbit.org/#pub:50800-81674-84873-32898 ](https://makecode.microbit.org/#pub:50800-81674-84873-32898), et le fichier .hex compilé peut être téléchargé en cliquant sur le lien « Télécharger le matériel du projet » pour ce projet, qui contient :
 
 + microbit-Reaction.hex
 
-There is also a version of the project with the "Keep score" challenge completed. This can be found at [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:
+Il y a aussi une version du projet avec le défi « Garder le score » terminé. Celui-ci peut être trouvé sur [makecode.microbit.org/#pub:23812-11544-45113-45147 ](https://makecode.microbit.org/#pub:23812-11544-45113-45147), et le fichier .hex compilé peut être téléchargé en cliquant sur le lien « Télécharger le matériel du projet » pour ce projet, qui contient :
 
 + microbit-Reaction-Score.hex
 
-## Learning Objectives
+## Objectifs d’apprentissage
 
-+ Boolean operators: 
-    + AND;
-    + NOT.
++ Opérateurs booléens : 
+    + ET ;
+    + NON.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre les éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) :
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utiliser des constructions de programmation basiques pour créer des programmes simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Défis
 
-+ "Choose your own image" - changing the image displayed on the micro:bit.
-+ "Choose your own delay" - changing the parameters to the `random` function.
-+ "Keep score" - use variables to keep track of player scores.
++ « Choisis ta propre image » - changer l'image affichée sur la micro:bit.
++ « Choisis ton propre délai » - changer les paramètres de la fonction `aléatoire`.
++ « Garder le score » - utilise des variables pour garder une trace des scores des joueurs.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Matériel pour projet
 
-## Club leader resources
+## Ressources pour le responsable de club
 
-+ [online completed project](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
-+ [online completed project, including 'Keep score' challenge](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
-+ [.hex project file to transfer onto your micro:bit](resources/microbit-Reaction.hex)
-+ [.hex project file including 'Keep Score' challenge](resources/microbit-Reaction-Score.hex)
++ [projet en ligne terminé](https://makecode.microbit.org/#pub:50800-81674-84873-32898)
++ [projet en ligne, incluant le défi « Garder le score »](https://makecode.microbit.org/#pub:23812-11544-45113-45147)
++ [Fichier de projet .hex à transférer sur ton micro:bit](resources/microbit-Reaction.hex)
++ [Fichier de projet .hex incluant le défi « Garder le score »](resources/microbit-Reaction-Score.hex)
 
 \--- /collapse \---
