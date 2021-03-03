@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Reaction
-description: Make a game to see who has the fastest reactions.
+title: Réflexes
+description: Crée un jeu pour voir qui a les réflexes les plus rapides.
 original_url: https://codeclubprojects.org/en-GB/microbit/reaction
 interests: games
 technologies: microbit
@@ -20,14 +20,14 @@ steps:
   - 
     title: Introduction
   - 
-    title: Wait for it!
+    title: A vos marques !
   - 
-    title: 'Challenge: Choose your own image'
+    title: 'Défi : Choisis ta propre image'
   - 
-    title: 'Challenge: Choose your own delay'
+    title: 'Défi : Choisis ton propre délai'
   - 
-    title: Waiting for a winner
+    title: Attente du gagnant
   - 
-    title: Who is the fastest?
+    title: Qui est le plus rapide ?
   - 
-    title: 'Challenge: Keep score'
+    title: 'Défi : Garder le score'
