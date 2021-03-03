@@ -1,4 +1,4 @@
-## Who is the fastest?
+## Who is the faster?
 
 Let's find out who pressed their button first.
 
