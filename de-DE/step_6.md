@@ -1,4 +1,4 @@
-## Wer ist der Schnellste?
+## Who is the faster?
 
 Lass uns herausfinden, wer zuerst den Knopf gedrückt hat.
 
