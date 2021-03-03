@@ -1,4 +1,4 @@
-## Cine este cel mai rapid?
+## Who is the faster?
 
 Să aflăm cine și-a apăsat mai întâi butonul.
 
