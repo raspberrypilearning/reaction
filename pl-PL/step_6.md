@@ -1,4 +1,4 @@
-## Kto jest najszybszy?
+## Who is the faster?
 
 Dowiedzmy się, kto pierwszy nacisnął przycisk.
 
