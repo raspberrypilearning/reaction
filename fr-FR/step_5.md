@@ -1,33 +1,33 @@
-## Waiting for a winner
+## Attente du gagnant
 
-Let's add code to wait until a button is pressed.
+Ajoute du code pour attendre jusqu'à ce qu'un bouton soit appuyé.
 
-+ After displaying an image, you'll need to wait until someone presses their button.
++ Après avoir affiché une image, tu as besoin d'attendre jusqu'à ce que quelqu'un appuie sur son bouton.
 
-Another way of saying this is that you'll need to wait as long as button A **and** button B have **not** been pressed.
+Une autre façon de le dire serait que tu dois attendre aussi longtemps que le bouton A **et** le bouton B n'ont **pas** été appuyés.
 
-To do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.
+Pour se faire, ajoute une boucle `tant que` depuis la section « Contrôle ». La boucle `tant que` doit être ajoutée juste après le bloc `montrer LEDs`.
 
-![screenshot](images/reaction-while.png)
+![capture d'écran](images/reaction-while.png)
 
-+ Drag an `and` block from 'Logic' to your `while` block:
++ Place un `et` à partir du menu « Logique » dans ton bloc `tant que` :
 
-![screenshot](images/reaction-and.png)
+![capture d'écran](images/reaction-and.png)
 
-+ Drag a `not` from 'Logic' into the left hand side of the `and`:
++ Place un `non` à partir du menu « Logique » dans la partie gauche de ton `et` :
 
-![screenshot](images/reaction-not.png)
+![capture d'écran](images/reaction-not.png)
 
-+ Drag an `button A is pressed` block from 'Input' to after the `not`:
++ Place un bloc `bouton A est pressé` à partir du menu « Entrées » après le `non` :
 
-![screenshot](images/reaction-button-a.png)
+![capture d'écran](images/reaction-button-a.png)
 
-+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.
++ Répète les 2 étapes précédentes et ajoute un `non bouton B est pressé` dans la partie `droite` de ta boucle tant que.
 
-![screenshot](images/reaction-button-b.png)
+![capture d'écran](images/reaction-button-b.png)
 
-+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.
++ Tu peux ensuite ajouter un délai très court (20 ms), pour que ta boucle `tant que` attende aussi longtemps qu'un bouton n'est pas appuyé.
 
-![screenshot](images/reaction-delay.png)
+![capture d'écran](images/reaction-delay.png)
 
-+ Test your project. Your game should now display an image and then wait as long as buttons A **and** B have **not** been pressed.
++ Teste ton projet. Ton jeu devrait maintenant afficher une image et attendre aussi longtemps que les boutons A **et** B n'ont **pas** été appuyés.
