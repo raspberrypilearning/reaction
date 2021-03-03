@@ -1,4 +1,4 @@
-## Wie is de snelste?
+## Who is the faster?
 
 Laten we uitzoeken wie er het eerst op zijn knop heeft gedrukt.
 
