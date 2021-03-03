@@ -4,30 +4,30 @@ Ajoute du code pour attendre jusqu'à ce qu'un bouton soit appuyé.
 
 + Après avoir affiché une image, tu as besoin d'attendre jusqu'à ce que quelqu'un appuie sur son bouton.
 
-Une autre façon de le dire serait que tu dois attendre aussi longtemps que le bouton A __et__ le bouton B n'ont __pas__ été appuyés.
+Une autre façon de le dire serait que tu dois attendre aussi longtemps que le bouton A **et** le bouton B n'ont **pas** été appuyés.
 
-Pour se faire, ajoute une boucle `lorsque` depuis la section 'Contrôle'. La boucle `lorsque` doit être ajoutée juste après le bloc `montrer Leds`.
+Pour se faire, ajoute une boucle `tant que` depuis la section « Contrôle ». La boucle `tant que` doit être ajoutée juste après le bloc `montrer LEDs`.
 
-![screenshot](images/reaction-while.png)
+![capture d'écran](images/reaction-while.png)
 
-+ Place un `et` de 'Logique' dans ton bloc `lorsque`&nbsp;:
++ Place un `et` à partir du menu « Logique » dans ton bloc `tant que` :
 
-![screenshot](images/reaction-and.png)
+![capture d'écran](images/reaction-and.png)
 
-+ Place un `pas` de 'Logique' dans la partie gauche de ton `et`&nbsp;:
++ Place un `non` à partir du menu « Logique » dans la partie gauche de ton `et` :
 
-![screenshot](images/reaction-not.png)
+![capture d'écran](images/reaction-not.png)
 
-+ Place un bloc `bouton A est pressé` de 'Entrées' après le `pas`&nbsp;:
++ Place un bloc `bouton A est pressé` à partir du menu « Entrées » après le `non` :
 
-![screenshot](images/reaction-button-a.png)
+![capture d'écran](images/reaction-button-a.png)
 
-+ Répète les 2 étapes précédentes et ajoute un `pas bouton B est pressé` dans la partie `droite` de ta boucle tant que.
++ Répète les 2 étapes précédentes et ajoute un `non bouton B est pressé` dans la partie `droite` de ta boucle tant que.
 
-![screenshot](images/reaction-button-b.png)
+![capture d'écran](images/reaction-button-b.png)
 
 + Tu peux ensuite ajouter un délai très court (20 ms), pour que ta boucle `tant que` attende aussi longtemps qu'un bouton n'est pas appuyé.
 
-![screenshot](images/reaction-delay.png)
+![capture d'écran](images/reaction-delay.png)
 
-+ Teste ton projet. Ton jeu devrait maintenant afficher une image et attendre aussi longtemps que les boutons A __et__ B n'ont __pas__ été appuyés.
++ Teste ton projet. Ton jeu devrait maintenant afficher une image et attendre aussi longtemps que les boutons A **et** B n'ont **pas** été appuyés.
