@@ -10,17 +10,19 @@ title: Αντανακλαστικά
 description: Δημιούργησε ένα παιχνίδι για να δεις ποιος έχει τα ταχύτερα αντανακλαστικά.
 original_url: https://codeclubprojects.org/en-GB/microbit/reaction
 interests: games
-technologies: '   microbit'
+technologies: "   microbit"
 site_areas: projects
 hardware: microbit
 software: ''
 version: 3
 last_tested: 2019-03-06
 steps:
-  - title: Εισαγωγή
-  - title: Περίμενε μέχρι να εμφανιστεί!
-  - title: 'Πρόκληση: Διάλεξε μια δική σου εικόνα'
-  - title: 'Πρόκληση: Διάλεξε τον δικό σου χρόνο καθυστέρησης'
-  - title: Αναμονή για νικητή
-  - title: Ποιος είναι ο ταχύτερος;
-  - title: 'Πρόκληση: Κράτησε τη βαθμολογία'
+- title: Εισαγωγή
+  completion: engaged
+- title: Περίμενε μέχρι να εμφανιστεί!
+- title: 'Πρόκληση: Διάλεξε μια δική σου εικόνα'
+- title: 'Πρόκληση: Διάλεξε τον δικό σου χρόνο καθυστέρησης'
+- title: Αναμονή για νικητή
+- title: Ποιος είναι ο ταχύτερος;
+  completion: internal
+- title: 'Πρόκληση: Κράτησε τη βαθμολογία'

@@ -17,10 +17,12 @@ software: ''
 version: 3
 last_tested: 2019-03-06
 steps:
-  - title: Inleiding
-  - title: Wacht!
-  - title: 'Uitdaging: kies je eigen afbeelding'
-  - title: 'Uitdaging: kies je eigen vertraging'
-  - title: Wachten op een winnaar
-  - title: Wie is de snelste?
-  - title: 'Uitdaging: score bijhouden'
+- title: Inleiding
+  completion: engaged
+- title: Wacht!
+- title: 'Uitdaging: kies je eigen afbeelding'
+- title: 'Uitdaging: kies je eigen vertraging'
+- title: Wachten op een winnaar
+- title: Wie is de snelste?
+  completion: internal
+- title: 'Uitdaging: score bijhouden'

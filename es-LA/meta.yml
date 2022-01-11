@@ -17,10 +17,12 @@ software: ''
 version: 3.0.1
 last_tested: 2019-03-06
 steps:
-  - title: Introducción
-  - title: '¡Espera!'
-  - title: 'Desafío: Escoge tu propia imagen'
-  - title: 'Desafío: Escoge tu propio tiempo de espera'
-  - title: Espera por un ganador
-  - title: '¿Quién es el más rápido?'
-  - title: 'Desafío: Guarda el puntaje'
+- title: Introducción
+  completion: engaged
+- title: "¡Espera!"
+- title: 'Desafío: Escoge tu propia imagen'
+- title: 'Desafío: Escoge tu propio tiempo de espera'
+- title: Espera por un ganador
+- title: "¿Quién es el más rápido?"
+  completion: internal
+- title: 'Desafío: Guarda el puntaje'

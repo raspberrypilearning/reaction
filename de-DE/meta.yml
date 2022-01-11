@@ -17,10 +17,12 @@ software: ''
 version: 3.0.1
 last_tested: 2019-03-06
 steps:
-  - title: Einleitung
-  - title: Warte darauf!
-  - title: 'Herausforderung: Wähle dein eigenes Bild'
-  - title: 'Herausforderung: Wähle deine eigene Wartezeit'
-  - title: Warte auf einen Gewinner
-  - title: Wer ist der Schnellste?
-  - title: 'Herausforderung: Punktzahl halten'
+- title: Einleitung
+  completion: engaged
+- title: Warte darauf!
+- title: 'Herausforderung: Wähle dein eigenes Bild'
+- title: 'Herausforderung: Wähle deine eigene Wartezeit'
+- title: Warte auf einen Gewinner
+- title: Wer ist der Schnellste?
+  completion: internal
+- title: 'Herausforderung: Punktzahl halten'
