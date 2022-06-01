@@ -16,11 +16,15 @@ hardware: microbit
 software: ''
 version: 3.0.1
 last_tested: 2019-03-06
-steps: 
+steps:
 - title: Introduction
 - title: Wait for it!
 - title: 'Challenge: Choose your own image'
 - title: 'Challenge: Choose your own delay'
 - title: Waiting for a winner
+  completion:
+  - engaged
 - title: Who is the fastest?
+  completion:
+  - internal
 - title: 'Challenge: Keep score'

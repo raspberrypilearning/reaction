@@ -17,10 +17,14 @@ software: ''
 version: 3.0.1
 last_tested: 2019-03-06
 steps:
-  - title: Wprowadzenie
-  - title: Czekaj na to!
-  - title: 'Wyzwanie: wybierz własny obraz'
-  - title: 'Wyzwanie: wybierz własne opóźnienie'
-  - title: Oczekiwanie na zwycięzcę
-  - title: Kto jest najszybszy?
-  - title: 'Wyzwanie: zachowaj wynik'
+- title: Wprowadzenie
+- title: Czekaj na to!
+- title: 'Wyzwanie: wybierz własny obraz'
+- title: 'Wyzwanie: wybierz własne opóźnienie'
+- title: Oczekiwanie na zwycięzcę
+  completion:
+  - engaged
+- title: Kto jest najszybszy?
+  completion:
+  - internal
+- title: 'Wyzwanie: zachowaj wynik'

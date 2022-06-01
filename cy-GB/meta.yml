@@ -17,10 +17,14 @@ software: ''
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Cyflwyniad
-  - title: Arhoswch amdani!
-  - title: 'Her: Dewiswch eich delwedd eich hun'
-  - title: 'Her: Dewis eich oedi eich hun'
-  - title: Aros am enillydd
-  - title: Pwy yw’r cyflymaf?
-  - title: 'Her: Cadw sgôr'
+- title: Cyflwyniad
+- title: Arhoswch amdani!
+- title: 'Her: Dewiswch eich delwedd eich hun'
+- title: 'Her: Dewis eich oedi eich hun'
+- title: Aros am enillydd
+  completion:
+  - engaged
+- title: Pwy yw’r cyflymaf?
+  completion:
+  - internal
+- title: 'Her: Cadw sgôr'
