@@ -18,11 +18,13 @@ version: 3.0.1
 last_tested: 2019-03-06
 steps:
 - title: Introducere
-  completion: engaged
 - title: Pe locuri!
 - title: 'Provocare: Alege propria ta imagine'
 - title: 'Provocare: Alege propria ta întârziere'
 - title: În așteptarea unui câștigător
+  completion:
+  - engaged
 - title: Cine este cel mai rapid?
-  completion: internal
+  completion:
+  - internal
 - title: 'Provocare: Ține scorul'

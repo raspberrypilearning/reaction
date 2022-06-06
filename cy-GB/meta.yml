@@ -18,11 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Arhoswch amdani!
 - title: 'Her: Dewiswch eich delwedd eich hun'
 - title: 'Her: Dewis eich oedi eich hun'
 - title: Aros am enillydd
+  completion:
+  - engaged
 - title: Pwy yw’r cyflymaf?
-  completion: internal
+  completion:
+  - internal
 - title: 'Her: Cadw sgôr'

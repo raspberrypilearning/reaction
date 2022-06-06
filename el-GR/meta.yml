@@ -18,11 +18,13 @@ version: 3
 last_tested: 2019-03-06
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Περίμενε μέχρι να εμφανιστεί!
 - title: 'Πρόκληση: Διάλεξε μια δική σου εικόνα'
 - title: 'Πρόκληση: Διάλεξε τον δικό σου χρόνο καθυστέρησης'
 - title: Αναμονή για νικητή
+  completion:
+  - engaged
 - title: Ποιος είναι ο ταχύτερος;
-  completion: internal
+  completion:
+  - internal
 - title: 'Πρόκληση: Κράτησε τη βαθμολογία'

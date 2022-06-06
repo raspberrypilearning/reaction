@@ -18,11 +18,13 @@ version: 3.0.1
 last_tested: 2019-03-06
 steps:
 - title: Introduction
-  completion: engaged
 - title: A vos marques !
 - title: 'Défi : Choisis ta propre image'
 - title: 'Défi : Choisis ton propre délai'
 - title: Attente du gagnant
+  completion:
+  - engaged
 - title: Qui est le plus rapide ?
-  completion: internal
+  completion:
+  - internal
 - title: 'Défi : Garder le score'

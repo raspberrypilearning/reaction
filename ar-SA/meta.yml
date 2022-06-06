@@ -18,11 +18,13 @@ version: 3.0.1
 last_tested: 2019-03-06
 steps:
 - title: المقدمة
-  completion: engaged
 - title: انتظرها!
 - title: 'التحدي: اختر صورتك الخاصة'
 - title: 'التحدي: اختر وقت التأخير الخاص بك'
 - title: في انتظار الفائز
+  completion:
+  - engaged
 - title: من هو الأسرع؟
-  completion: internal
+  completion:
+  - internal
 - title: 'التحدي: الاحتفاظ بالنتيجة'
