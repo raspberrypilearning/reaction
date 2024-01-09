@@ -27,7 +27,11 @@ steps:
     title: 'التحدي: اختر وقت التأخير الخاص بك'
   - 
     title: في انتظار الفائز
+    completion:
+      - engaged
   - 
     title: من هو الأسرع؟
+    completion:
+      - internal
   - 
     title: 'التحدي: الاحتفاظ بالنتيجة'
