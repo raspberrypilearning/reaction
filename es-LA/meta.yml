@@ -27,7 +27,11 @@ steps:
     title: 'Desafío: Escoge tu propio tiempo de espera'
   - 
     title: Espera por un ganador
+    completion:
+      - engaged
   - 
     title: '¿Quién es el más rápido?'
+    completion:
+      - internal
   - 
     title: 'Desafío: Guarda el puntaje'
