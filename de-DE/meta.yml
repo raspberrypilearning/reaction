@@ -27,7 +27,11 @@ steps:
     title: 'Herausforderung: Wähle deine eigene Wartezeit'
   - 
     title: Warte auf einen Gewinner
+    completion:
+      - engaged
   - 
     title: Wer ist der Schnellste?
+    completion:
+      - internal
   - 
     title: 'Herausforderung: halte die Punktzahl'
