@@ -27,7 +27,11 @@ steps:
     title: 'Uitdaging: kies je eigen vertraging'
   - 
     title: Wachten op een winnaar
+    completion:
+      - engaged
   - 
     title: Wie is de snelste?
+    completion:
+      - internal
   - 
     title: 'Uitdaging: score bijhouden'
