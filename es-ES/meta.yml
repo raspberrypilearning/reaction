@@ -27,7 +27,11 @@ steps:
     title: 'Challenge: Choose your own delay'
   - 
     title: Waiting for a winner
+    completion:
+      - engaged
   - 
     title: Who is the fastest?
+    completion:
+      - internal
   - 
     title: 'Challenge: Keep score'
