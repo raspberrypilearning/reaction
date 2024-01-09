@@ -27,7 +27,11 @@ steps:
     title: 'Provocare: Alege propria ta întârziere'
   - 
     title: În așteptarea unui câștigător
+    completion:
+      - engaged
   - 
     title: Cine este cel mai rapid?
+    completion:
+      - internal
   - 
     title: 'Provocare: Ține scorul'
