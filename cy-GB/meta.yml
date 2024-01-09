@@ -27,7 +27,11 @@ steps:
     title: 'Her: Dewiswch eich oedi eich hun'
   - 
     title: Aros am enillydd
+    completion:
+      - engaged
   - 
     title: Pwy yw’r cyflymaf?
+    completion:
+      - internal
   - 
     title: 'Her: Cadw sgôr'
