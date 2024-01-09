@@ -27,7 +27,11 @@ steps:
     title: 'Wyzwanie: Wybierz własne opóźnienie'
   - 
     title: Oczekiwanie na zwycięzcę
+    completion:
+      - engaged
   - 
     title: Kto jest najszybszy?
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: Zachowaj wynik'
