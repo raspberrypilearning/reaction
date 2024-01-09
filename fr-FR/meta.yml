@@ -27,7 +27,11 @@ steps:
     title: 'Défi : Choisis ton propre délai'
   - 
     title: Attente du gagnant
+    completion:
+      - engaged
   - 
     title: Qui est le plus rapide ?
+    completion:
+      - internal
   - 
     title: 'Défi : Garder le score'
