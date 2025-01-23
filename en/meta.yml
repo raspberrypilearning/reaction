@@ -28,3 +28,5 @@ steps:
   completion:
   - internal
 - title: 'Challenge: Keep score'
+  completion:
+  - external
